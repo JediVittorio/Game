@@ -1,0 +1,2083 @@
+[
+  null,
+  {
+    "id": 1,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      },
+      {
+        "skillId": 20,
+        "rating": 5,
+        "conditionType": 0,
+        "conditionParam1": 0,
+        "conditionParam2": 0
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Townsperson1",
+    "dropItems": [
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      }
+    ],
+    "exp": 10,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.95
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "gold": 5,
+    "name": "Nosy Neighbor",
+    "note": "<meta.PowerRating: 1>",
+    "params": [
+      50,
+      0,
+      10,
+      20,
+      20,
+      20,
+      20,
+      20
+    ]
+  },
+  {
+    "id": 2,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      },
+      {
+        "skillId": 23,
+        "rating": 3,
+        "conditionType": 1,
+        "conditionParam1": 0,
+        "conditionParam2": 2
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Slime",
+    "dropItems": [
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      }
+    ],
+    "exp": 15,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.95
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "gold": 8,
+    "name": "Sentient Tomato",
+    "note": "<meta.PowerRating: 3>",
+    "params": [
+      80,
+      0,
+      12,
+      25,
+      20,
+      20,
+      20,
+      20
+    ]
+  },
+  {
+    "id": 3,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People1",
+    "dropItems": [
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      }
+    ],
+    "exp": 25,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.95
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.1
+      },
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      }
+    ],
+    "gold": 15,
+    "name": "Arcade Delinquent",
+    "note": "<meta.PowerRating: 5>",
+    "params": [
+      120,
+      50,
+      15,
+      20,
+      20,
+      20,
+      25,
+      20
+    ]
+  },
+  {
+    "id": 4,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      },
+      {
+        "skillId": 52,
+        "rating": 4,
+        "conditionType": 2,
+        "conditionParam1": 0,
+        "conditionParam2": 0.3
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People2",
+    "dropItems": [
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      }
+    ],
+    "exp": 100,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.95
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 11,
+        "dataId": 2,
+        "value": 2
+      }
+    ],
+    "gold": 100,
+    "name": "Lemonade Tycoon",
+    "note": "<meta.PowerRating: 10>",
+    "params": [
+      500,
+      50,
+      25,
+      20,
+      30,
+      30,
+      30,
+      30
+    ]
+  },
+  {
+    "id": 5,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      },
+      {
+        "skillId": 99,
+        "rating": 4,
+        "conditionType": 1,
+        "conditionParam1": 0,
+        "conditionParam2": 2
+      },
+      {
+        "skillId": 13,
+        "rating": 6,
+        "conditionType": 2,
+        "conditionParam1": 0,
+        "conditionParam2": 0.3
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Gazer",
+    "dropItems": [
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      },
+      {
+        "dataId": 1,
+        "denominator": 1,
+        "kind": 0
+      }
+    ],
+    "exp": 1000,
+    "traits": [
+      {
+        "code": 22,
+        "dataId": 0,
+        "value": 0.95
+      },
+      {
+        "code": 22,
+        "dataId": 1,
+        "value": 0.05
+      },
+      {
+        "code": 31,
+        "dataId": 1,
+        "value": 0
+      },
+      {
+        "code": 63,
+        "dataId": 1,
+        "value": 1
+      }
+    ],
+    "gold": 0,
+    "name": "Adulthood",
+    "note": "<meta.PowerRating: 20>",
+    "params": [
+      2500,
+      50,
+      50,
+      20,
+      40,
+      40,
+      40,
+      40
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 31,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Crow",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 20,
+    "gold": 10,
+    "name": "Flying Reptile",
+    "note": "",
+    "params": [
+      100,
+      0,
+      15,
+      10,
+      10,
+      10,
+      30,
+      10
+    ]
+  },
+  {
+    "id": 32,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Bee",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 5,
+    "gold": 2,
+    "name": "Prehistoric Insect",
+    "note": "<QuestTarget: true>",
+    "params": [
+      10,
+      0,
+      5,
+      5,
+      5,
+      5,
+      50,
+      5
+    ]
+  },
+  {
+    "id": 33,
+    "actions": [],
+    "battlerHue": 0,
+    "battlerName": "Slime",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Tomato Citizen",
+    "note": "<NPC: true>",
+    "params": [
+      500,
+      0,
+      0,
+      100,
+      0,
+      100,
+      10,
+      10
+    ]
+  },
+  {
+    "id": 34,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 52
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 2000,
+    "gold": 500,
+    "name": "Disgruntled Farmer",
+    "note": "",
+    "params": [
+      5000,
+      100,
+      40,
+      35,
+      30,
+      30,
+      40,
+      40
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 61,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor1_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Zoning Bureaucrat",
+    "note": "",
+    "params": [
+      200,
+      0,
+      20,
+      15,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  {
+    "id": 62,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Monster",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Red Chocobo (HOA)",
+    "note": "",
+    "params": [
+      300,
+      0,
+      30,
+      20,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  {
+    "id": 65,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Marquis of Flatness",
+    "note": "",
+    "params": [
+      1000,
+      0,
+      40,
+      30,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 91,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Slime",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Sin Spawn (Tax Exempt)",
+    "note": "",
+    "params": [
+      400,
+      0,
+      25,
+      20,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  {
+    "id": 95,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "The Spread-Whale",
+    "note": "",
+    "params": [
+      2500,
+      0,
+      50,
+      40,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 121,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Monster",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Corrugated Demon",
+    "note": "",
+    "params": [
+      50,
+      0,
+      10,
+      5,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  {
+    "id": 125,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Art Critic",
+    "note": "",
+    "params": [
+      500,
+      0,
+      30,
+      10,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 151,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor1_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "ADVENT Middle Management",
+    "note": "",
+    "params": [
+      80,
+      0,
+      45,
+      10,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  {
+    "id": 152,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Monster",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Sectoid HR",
+    "note": "",
+    "params": [
+      60,
+      0,
+      20,
+      5,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  {
+    "id": 155,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "The 1% Chance Avatar",
+    "note": "",
+    "params": [
+      2000,
+      0,
+      80,
+      50,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 181,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Slime",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Voidwoken Janitor",
+    "note": "",
+    "params": [
+      300,
+      0,
+      30,
+      20,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  {
+    "id": 185,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Cursed Kettle Golem",
+    "note": "",
+    "params": [
+      1500,
+      0,
+      60,
+      40,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 211,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Monster",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Shadow Hall Monitor",
+    "note": "",
+    "params": [
+      400,
+      0,
+      35,
+      25,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  {
+    "id": 215,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Non-Euclidean Examiner",
+    "note": "",
+    "params": [
+      3000,
+      0,
+      70,
+      50,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 241,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor1_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Mind Flayer Therapist",
+    "note": "",
+    "params": [
+      200,
+      0,
+      40,
+      1,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  {
+    "id": 245,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "The Polycule Hivemind",
+    "note": "",
+    "params": [
+      2800,
+      0,
+      60,
+      60,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 271,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Slime",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "Gradient Eradicator",
+    "note": "",
+    "params": [
+      500,
+      0,
+      50,
+      40,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  {
+    "id": 275,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "The Neon Paintress",
+    "note": "",
+    "params": [
+      3500,
+      0,
+      90,
+      70,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 305,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Boss",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 50,
+    "gold": 50,
+    "name": "UDE Chairman",
+    "note": "",
+    "params": [
+      999999,
+      0,
+      500,
+      100,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 310,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor1_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Less",
+    "note": "",
+    "params": [
+      5000,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 311,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor1_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Carla",
+    "note": "",
+    "params": [
+      4500,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 312,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor1_3",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Geoff",
+    "note": "",
+    "params": [
+      4800,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 313,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor2_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Krono",
+    "note": "",
+    "params": [
+      6000,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 314,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor2_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Ruca",
+    "note": "",
+    "params": [
+      4200,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 315,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor2_3",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Toad",
+    "note": "",
+    "params": [
+      7000,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 316,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor3_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Romza",
+    "note": "",
+    "params": [
+      5500,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 317,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor3_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Bureaucrat",
+    "note": "",
+    "params": [
+      3500,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 318,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "SF_Actor1_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Tadpole",
+    "note": "",
+    "params": [
+      5200,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 319,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "SF_Actor1_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Luna",
+    "note": "",
+    "params": [
+      4000,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 320,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "SF_Actor2_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Maurice",
+    "note": "",
+    "params": [
+      100,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 321,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "SF_Actor2_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Shell-don",
+    "note": "",
+    "params": [
+      500,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 322,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "SF_Actor3_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Commander Rick",
+    "note": "",
+    "params": [
+      4,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 323,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "SF_Actor3_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Vera",
+    "note": "",
+    "params": [
+      4,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 324,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Evil_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Judgmental Knight",
+    "note": "",
+    "params": [
+      8000,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 325,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Evil_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Blaze",
+    "note": "",
+    "params": [
+      3500,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 326,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People1_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "The Trickster",
+    "note": "",
+    "params": [
+      5000,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 327,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People1_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Suji",
+    "note": "",
+    "params": [
+      5500,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 328,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People2_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "The Oathbreaker",
+    "note": "",
+    "params": [
+      7500,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 329,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People2_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "Darkheart",
+    "note": "",
+    "params": [
+      4800,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 330,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People3_1",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 0,
+    "gold": 0,
+    "name": "The Captain",
+    "note": "",
+    "params": [
+      6500,
+      500,
+      50,
+      40,
+      50,
+      50,
+      60,
+      50
+    ]
+  }
+]

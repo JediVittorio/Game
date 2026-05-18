@@ -1,0 +1,1144 @@
+[
+  null,
+  {
+    "id": 1,
+    "list": [
+      {
+        "code": 221,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "The fabric of time shifts as your memories realign..."
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          8,
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 222,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Era Transition Cutscene",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 2,
+    "list": [
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "console.log('Save State Written to MemPalace');"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Global Save State Writer",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 3,
+    "list": [
+      {
+        "code": 221,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "A fuzzy memory clouding your vision..."
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "The simulation is resetting."
+        ]
+      },
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "$gameParty.reviveAll();"
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 0,
+        "parameters": [
+          0,
+          1,
+          8,
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 222,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ],
+    "name": "Fuzzy Memory Game Over",
+    "switchId": 1,
+    "trigger": 0
+  },
+  {
+    "id": 4,
+    "name": "Save State UI Menu",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          1,
+          0,
+          3,
+          2
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          99,
+          99,
+          0
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "[EMULATION OVERLAY INJECTED]"
+        ]
+      },
+      {
+        "code": 102,
+        "indent": 1,
+        "parameters": [
+          [
+            "Reload State (Heal)",
+            "Toggle Safety Bypass",
+            "Close"
+          ],
+          1,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 402,
+        "indent": 1,
+        "parameters": [
+          0,
+          "Reload State (Heal)"
+        ]
+      },
+      {
+        "code": 314,
+        "indent": 2,
+        "parameters": [
+          0,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 402,
+        "indent": 1,
+        "parameters": [
+          1,
+          "Toggle Safety Bypass"
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 2,
+        "parameters": [
+          100,
+          100,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 402,
+        "indent": 1,
+        "parameters": [
+          2,
+          "Close"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 2,
+        "parameters": []
+      },
+      {
+        "code": 404,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "You have not suffered enough to unlock this."
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Era 1 Escalation Tracker",
+    "switchId": 10,
+    "trigger": 2,
+    "list": [
+      {
+        "code": 230,
+        "indent": 0,
+        "parameters": [
+          300
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          5,
+          5,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          5,
+          0,
+          10,
+          3
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "Adulthood: I AM THE INEVITABLE CRUSH OF RESPONSIBILITY."
+        ]
+      },
+      {
+        "code": 301,
+        "indent": 1,
+        "parameters": [
+          0,
+          5,
+          false,
+          false
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          5,
+          5,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 121,
+        "indent": 1,
+        "parameters": [
+          10,
+          10,
+          0
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Form 8B Processing",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Bureaucrat: Processing Form 8B... Please hold."
+        ]
+      },
+      {
+        "code": 230,
+        "indent": 0,
+        "parameters": [
+          120
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Bureaucrat: Your application for a Z-axis has been denied."
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Applying 2D Damage instead."
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sports Franchise Spreadsheet",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "[SPREADSHEET UI LOADED]"
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Allocate funds to Player Salary? (Input up to 8 digits)"
+        ]
+      },
+      {
+        "code": 103,
+        "indent": 0,
+        "parameters": [
+          20,
+          8
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Allocate funds to Merchandise? (Input up to 8 digits)"
+        ]
+      },
+      {
+        "code": 103,
+        "indent": 0,
+        "parameters": [
+          21,
+          8
+        ]
+      },
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          1,
+          20,
+          0,
+          1000000,
+          3
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "Union Rep: Acceptable margins. We will summon the whale."
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 411,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 101,
+        "indent": 1,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 1,
+        "parameters": [
+          "Union Rep: Bankruptcy! The strike continues!"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "d20 Roll Core",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          30,
+          30,
+          0,
+          2,
+          20
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Rolling d20..."
+        ]
+      },
+      {
+        "code": 230,
+        "indent": 0,
+        "parameters": [
+          30
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Result: \\V[30]"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ending Cinematic (Phase 1)",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 221,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "SYSTEM: AGES PROTOCOL 100% SYNCHRONIZATION ACHIEVED."
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Voice: You weren't supposed to go further."
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Voice: Not because it was dangerous, but because there's nothing left."
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Voice: The satire was a gift. A way to remember a world that"
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "valued \"fun\" before the Great Stasis."
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Voice: You aren't the man in the room. You are the data he left behind."
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Voice: The simulation wasn't built to entertain you..."
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Voice: It was built to CREATE you."
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "SYSTEM: NEURAL LEGACY PRESERVATION: SUCCESSFUL."
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Voice: Welcome to the real world, Prototype 01."
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "Voice: It's much quieter than the Lobby."
+        ]
+      },
+      {
+        "code": 223,
+        "indent": 0,
+        "parameters": [
+          [
+            255,
+            255,
+            255,
+            255
+          ],
+          600,
+          true
+        ]
+      },
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "DataManager.setupNewGame(); SceneManager.goto(Scene_Title);"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Protagonist Battle & Aftermath",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "for(let i=1; i<=520; i++) { if([i]) .actor(1).learnSkill(i); }"
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "[SIMULATION COLLAPSE INITIATED]"
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "[DATABASE CONFLATION: ALL ABILITIES GRANTED]"
+        ]
+      },
+      {
+        "code": 301,
+        "indent": 0,
+        "parameters": [
+          0,
+          12,
+          false,
+          false
+        ]
+      },
+      {
+        "code": 221,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 230,
+        "indent": 0,
+        "parameters": [
+          480
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "... I knew you could do it."
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "I just didn't know if you'd want to."
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 0,
+        "parameters": [
+          0,
+          27,
+          8,
+          6,
+          0,
+          0
+        ]
+      },
+      {
+        "code": 101,
+        "indent": 0,
+        "parameters": [
+          "",
+          0,
+          0,
+          2,
+          ""
+        ]
+      },
+      {
+        "code": 401,
+        "indent": 0,
+        "parameters": [
+          "You weren't supposed to go further."
+        ]
+      },
+      {
+        "code": 222,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Return by Death Protocol",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 223,
+        "indent": 0,
+        "parameters": [
+          [
+            255,
+            0,
+            0,
+            170
+          ],
+          10,
+          true
+        ]
+      },
+      {
+        "code": 250,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "Scream",
+            "pan": 0,
+            "pitch": 80,
+            "volume": 100
+          }
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          701,
+          701,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "for (let i = 500; i <= 599; i++) { .setValue(i, 0); }"
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 0,
+        "parameters": [
+          706,
+          706,
+          2,
+          0,
+          2
+        ]
+      },
+      {
+        "code": 201,
+        "indent": 0,
+        "parameters": [
+          1,
+          702,
+          703,
+          704,
+          2,
+          0
+        ]
+      },
+      {
+        "code": 223,
+        "indent": 0,
+        "parameters": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          60,
+          true
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Verb: Swing (Rusted Blade)",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 250,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "Sword1",
+            "pan": 0,
+            "pitch": 50,
+            "volume": 80
+          }
+        ]
+      },
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "// Logic to check front tile and interact with Stage 2 entities"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Verb: Push (Weight of Guilt)",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      {
+        "code": 250,
+        "indent": 0,
+        "parameters": [
+          {
+            "name": "Earth1",
+            "pan": 0,
+            "pitch": 50,
+            "volume": 60
+          }
+        ]
+      },
+      {
+        "code": 355,
+        "indent": 0,
+        "parameters": [
+          "// Logic to move memory blocks"
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 0,
+        "parameters": []
+      }
+    ]
+  }
+]
