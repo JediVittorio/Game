@@ -3,29 +3,14 @@
   {
     "id": 1,
     "atypeId": 1,
-    "description": "",
-    "etypeId": 4,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "description": "A well-worn cap. Offers minimal protection.",
+    "etypeId": 3,
+    "traits": [],
     "iconIndex": 135,
-    "name": "-----Armors",
+    "name": "Baseball Cap",
     "note": "",
-    "params": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0,
-      0
-    ],
-    "price": 100
+    "params": [0, 0, 0, 2, 0, 0, 0, 0],
+    "price": 15
   },
   {
     "id": 2,

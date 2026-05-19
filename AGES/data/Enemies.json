@@ -8,65 +8,26 @@
         "conditionParam2": 0,
         "conditionType": 0,
         "rating": 5,
-        "skillId": 1
-      },
-      {
-        "skillId": 20,
-        "rating": 5,
-        "conditionType": 0,
-        "conditionParam1": 0,
-        "conditionParam2": 0
+        "skillId": 42
       }
     ],
     "battlerHue": 0,
-    "battlerName": "Townsperson1",
-    "dropItems": [
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      }
-    ],
+    "battlerName": "SF_Monster_7",
+    "dropItems": [],
     "exp": 10,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [],
     "gold": 5,
-    "name": "Nosy Neighbor",
+    "name": "Sentient Stop Sign",
     "note": "<meta.PowerRating: 1>",
     "params": [
-      50,
+      40,
       0,
+      8,
+      12,
       10,
-      20,
-      20,
-      20,
-      20,
-      20
+      10,
+      10,
+      10
     ]
   },
   {
@@ -88,7 +49,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "Slime",
+    "battlerName": "SF_Monster_4",
     "dropItems": [
       {
         "dataId": 1,
@@ -125,12 +86,12 @@
       }
     ],
     "gold": 8,
-    "name": "Sentient Tomato",
+    "name": "Grumpy Dog",
     "note": "<meta.PowerRating: 3>",
     "params": [
-      80,
+      30,
       0,
-      12,
+      10,
       25,
       20,
       20,
@@ -146,58 +107,26 @@
         "conditionParam2": 0,
         "conditionType": 0,
         "rating": 5,
-        "skillId": 1
+        "skillId": 44
       }
     ],
     "battlerHue": 0,
-    "battlerName": "People1",
-    "dropItems": [
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      }
-    ],
+    "battlerName": "SF_Monster_2",
+    "dropItems": [],
     "exp": 25,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.1
-      },
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      }
-    ],
+    "traits": [],
     "gold": 15,
-    "name": "Arcade Delinquent",
+    "name": "Rogue Skateboard",
     "note": "<meta.PowerRating: 5>",
     "params": [
-      120,
-      50,
-      15,
-      20,
-      20,
-      20,
       25,
-      20
+      0,
+      12,
+      3,
+      10,
+      10,
+      10,
+      10
     ]
   },
   {
@@ -208,70 +137,26 @@
         "conditionParam2": 0,
         "conditionType": 0,
         "rating": 5,
-        "skillId": 1
-      },
-      {
-        "skillId": 52,
-        "rating": 4,
-        "conditionType": 2,
-        "conditionParam1": 0,
-        "conditionParam2": 0.3
+        "skillId": 45
       }
     ],
     "battlerHue": 0,
-    "battlerName": "People2",
-    "dropItems": [
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      },
-      {
-        "dataId": 1,
-        "denominator": 1,
-        "kind": 0
-      }
-    ],
-    "exp": 100,
-    "traits": [
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0.95
-      },
-      {
-        "code": 22,
-        "dataId": 1,
-        "value": 0.05
-      },
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 11,
-        "dataId": 2,
-        "value": 2
-      }
-    ],
-    "gold": 100,
-    "name": "Lemonade Tycoon",
-    "note": "<meta.PowerRating: 10>",
+    "battlerName": "Crow",
+    "dropItems": [],
+    "exp": 20,
+    "traits": [],
+    "gold": 10,
+    "name": "Bureaucratic Crow",
+    "note": "<meta.PowerRating: 4>",
     "params": [
-      500,
-      50,
-      25,
       20,
-      30,
-      30,
-      30,
-      30
+      0,
+      5,
+      5,
+      10,
+      10,
+      10,
+      10
     ]
   },
   {
@@ -359,11 +244,133 @@
   null,
   null,
   null,
-  null,
-  null,
-  null,
-  null,
-  null,
+  {
+    "id": 10,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 46
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People1_1",
+    "dropItems": [],
+    "exp": 50,
+    "traits": [],
+    "gold": 25,
+    "name": "Arcade Shark (Rank & File)",
+    "note": "<meta.PowerRating: 8>",
+    "params": [
+      60,
+      0,
+      15,
+      10,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  {
+    "id": 11,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 48
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "People4",
+    "dropItems": [],
+    "exp": 30,
+    "traits": [],
+    "gold": 15,
+    "name": "Hula-Hoop Kid",
+    "note": "",
+    "params": [
+      40,
+      0,
+      10,
+      8,
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  {
+    "id": 12,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 41
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "SF_Monster_1",
+    "dropItems": [],
+    "exp": 40,
+    "gold": 20,
+    "name": "Spiteful Snake",
+    "note": "<meta.PowerRating: 6>",
+    "params": [
+      50,
+      0,
+      12,
+      8,
+      10,
+      10,
+      12,
+      10
+    ],
+    "traits": []
+  },
+  {
+    "id": 13,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      },
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0.25,
+        "conditionType": 2,
+        "rating": 6,
+        "skillId": 523
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Monster_1",
+    "dropItems": [],
+    "exp": 60,
+    "gold": 30,
+    "name": "Territorial Oak",
+    "note": "<meta.PowerRating: 10>",
+    "params": [
+      80,
+      0,
+      15,
+      25,
+      10,
+      10,
+      5,
+      10
+    ],
+    "traits": []
+  },
   null,
   null,
   null,
@@ -381,6 +388,49 @@
   null,
   null,
   {
+    "id": 30,
+    "actions": [
+      {
+        "conditionParam1": 1,
+        "conditionParam2": 2,
+        "conditionType": 1,
+        "rating": 5,
+        "skillId": 47
+      },
+      {
+        "conditionParam1": 2,
+        "conditionParam2": 2,
+        "conditionType": 1,
+        "rating": 5,
+        "skillId": 48
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Evil_1",
+    "dropItems": [
+      {
+        "dataId": 4,
+        "denominator": 1,
+        "kind": 1
+      }
+    ],
+    "exp": 500,
+    "traits": [],
+    "gold": 200,
+    "name": "Frank-Equiv",
+    "note": "<Boss: true>",
+    "params": [
+      200,
+      50,
+      25,
+      20,
+      20,
+      20,
+      20,
+      20
+    ]
+  },
+  {
     "id": 31,
     "actions": [
       {
@@ -388,29 +438,43 @@
         "conditionParam2": 0,
         "conditionType": 0,
         "rating": 5,
-        "skillId": 1
+        "skillId": 524
+      },
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 526
+      },
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 525
       }
     ],
     "battlerHue": 0,
-    "battlerName": "Crow",
+    "battlerName": "Gazer",
     "dropItems": [
       null,
       null,
       null
     ],
-    "exp": 20,
-    "gold": 10,
-    "name": "Flying Reptile",
-    "note": "",
+    "exp": 2000,
+    "gold": 1000,
+    "name": "Manifestation of Adulthood",
+    "note": "<Boss: true>",
     "params": [
-      100,
+      500,
       0,
-      15,
-      10,
-      10,
-      10,
+      35,
       30,
-      10
+      40,
+      40,
+      30,
+      30
     ]
   },
   {
@@ -425,51 +489,53 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "Bee",
-    "dropItems": [
-      null,
-      null,
-      null
-    ],
-    "exp": 5,
-    "gold": 2,
-    "name": "Prehistoric Insect",
-    "note": "<QuestTarget: true>",
+    "battlerName": "Lamia",
+    "dropItems": [],
+    "exp": 150,
+    "gold": 40,
+    "name": "Naga",
+    "note": "<Chrono Enemy: true>",
     "params": [
-      10,
+      120,
       0,
-      5,
-      5,
-      5,
-      5,
-      50,
-      5
-    ]
+      20,
+      15,
+      10,
+      10,
+      15,
+      10
+    ],
+    "traits": []
   },
   {
     "id": 33,
-    "actions": [],
-    "battlerHue": 0,
-    "battlerName": "Slime",
-    "dropItems": [
-      null,
-      null,
-      null
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
     ],
-    "exp": 0,
-    "gold": 0,
-    "name": "Tomato Citizen",
-    "note": "<NPC: true>",
+    "battlerHue": 0,
+    "battlerName": "Imp",
+    "dropItems": [],
+    "exp": 120,
+    "gold": 30,
+    "name": "Underling",
+    "note": "<Chrono Enemy: true>",
     "params": [
-      500,
-      0,
-      0,
       100,
       0,
-      100,
+      18,
+      12,
       10,
+      10,
+      20,
       10
-    ]
+    ],
+    "traits": []
   },
   {
     "id": 34,
@@ -504,8 +570,73 @@
       40
     ]
   },
-  null,
-  null,
+  {
+    "id": 35,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 527
+      },
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 528
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Monster_4",
+    "dropItems": [],
+    "exp": 500,
+    "gold": 200,
+    "name": "Yakra",
+    "note": "<Boss: true><Chrono Enemy: true>",
+    "params": [
+      600,
+      0,
+      30,
+      25,
+      10,
+      10,
+      20,
+      10
+    ],
+    "traits": []
+  },
+  {
+    "id": 36,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Monster_3",
+    "dropItems": [],
+    "exp": 100,
+    "gold": 50,
+    "name": "Training Bot Gato",
+    "note": "<Chrono Enemy: true>",
+    "params": [
+      300,
+      0,
+      15,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "traits": []
+  },
   null,
   null,
   null,
@@ -542,26 +673,23 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "Actor1_1",
-    "dropItems": [
-      null,
-      null,
-      null
-    ],
-    "exp": 50,
+    "battlerName": "People1",
+    "dropItems": [],
+    "exp": 150,
     "gold": 50,
-    "name": "Zoning Bureaucrat",
-    "note": "",
+    "name": "Corrupted Mercenary",
+    "note": "<SRPG Range: 3>\n<SRPG Move: 4>\n<AI: Focus Fire Lowest HP>",
     "params": [
       200,
       0,
+      25,
       20,
-      15,
       10,
       10,
-      10,
+      20,
       10
-    ]
+    ],
+    "traits": []
   },
   {
     "id": 62,
@@ -571,30 +699,27 @@
         "conditionParam2": 0,
         "conditionType": 0,
         "rating": 5,
-        "skillId": 1
+        "skillId": 533
       }
     ],
     "battlerHue": 0,
-    "battlerName": "Monster",
-    "dropItems": [
-      null,
-      null,
-      null
-    ],
-    "exp": 50,
-    "gold": 50,
-    "name": "Red Chocobo (HOA)",
-    "note": "",
+    "battlerName": "Skeleton",
+    "dropItems": [],
+    "exp": 180,
+    "gold": 60,
+    "name": "Skeletal Archer",
+    "note": "<SRPG Range: 5>\n<SRPG Move: 3>\n<AI: Maintain Distance>",
     "params": [
-      300,
+      150,
       0,
-      30,
       20,
+      15,
       10,
       10,
-      10,
+      25,
       10
-    ]
+    ],
+    "traits": []
   },
   null,
   null,
@@ -629,24 +754,78 @@
       10,
       10,
       10
-    ]
+    ],
+    "traits": []
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 70,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 532
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Actor3_4",
+    "dropItems": [],
+    "exp": 1000,
+    "gold": 500,
+    "name": "Wiegraf-Equiv",
+    "note": "<Boss: true>\n<SRPG Range: 1>\n<SRPG Move: 4>\n<Dialogue: Your memories are as fragile as your grid coordinates, Romza. Draw your sword and face the weight of history!>",
+    "params": [
+      1000,
+      0,
+      40,
+      35,
+      30,
+      30,
+      30,
+      30
+    ],
+    "traits": []
   },
   null,
   null,
   null,
   null,
   null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
+  {
+    "id": 80,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 534
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "Monster_5",
+    "dropItems": [],
+    "exp": 5000,
+    "gold": 2000,
+    "name": "Belias-Equiv",
+    "note": "<Boss: true>\n<SRPG Boss: True>\n<SRPG Range: 3>\n<SRPG Move: 3>",
+    "params": [
+      2500,
+      0,
+      50,
+      40,
+      60,
+      40,
+      30,
+      30
+    ],
+    "traits": []
+  },
   null,
   null,
   null,
@@ -668,7 +847,7 @@
       }
     ],
     "battlerHue": 0,
-    "battlerName": "Slime",
+    "battlerName": "SF_Monster_1",
     "dropItems": [
       null,
       null,
@@ -676,7 +855,7 @@
     ],
     "exp": 50,
     "gold": 50,
-    "name": "Sin Spawn (Tax Exempt)",
+    "name": "Sahagin-Equiv",
     "note": "",
     "params": [
       400,
@@ -685,11 +864,43 @@
       20,
       10,
       10,
-      10,
+      35,
       10
     ]
   },
-  null,
+  {
+    "id": 92,
+    "actions": [
+      {
+        "conditionParam1": 0,
+        "conditionParam2": 0,
+        "conditionType": 0,
+        "rating": 5,
+        "skillId": 1
+      }
+    ],
+    "battlerHue": 0,
+    "battlerName": "SF_Monster_2",
+    "dropItems": [
+      null,
+      null,
+      null
+    ],
+    "exp": 100,
+    "gold": 100,
+    "name": "Garuda-Equiv",
+    "note": "",
+    "params": [
+      800,
+      0,
+      30,
+      25,
+      10,
+      10,
+      45,
+      10
+    ]
+  },
   null,
   null,
   {
@@ -2079,5 +2290,976 @@
       60,
       50
     ]
+  },
+  {
+    "id": 331,
+    "name": "Territorial Oak",
+    "battlerName": "Monster_1",
+    "battlerHue": 0,
+    "params": [
+      80,
+      0,
+      15,
+      25,
+      1,
+      20,
+      5,
+      10
+    ],
+    "exp": 60,
+    "gold": 30,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 332,
+    "name": "Training Bot Gato",
+    "battlerName": "Monster_3",
+    "battlerHue": 0,
+    "params": [
+      300,
+      0,
+      15,
+      10,
+      1,
+      10,
+      10,
+      10
+    ],
+    "exp": 100,
+    "gold": 50,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 328,
+    "name": "Sahagin-Equiv",
+    "battlerName": "SF_Monster_1",
+    "battlerHue": 0,
+    "params": [
+      400,
+      0,
+      20,
+      15,
+      10,
+      10,
+      35,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 329,
+    "name": "Koopa-Equivalent",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  {
+    "id": 351,
+    "name": "Hooktail-Equiv",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 352,
+    "name": "Sectoid-Equiv",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 353,
+    "name": "Trooper",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 354,
+    "name": "Assassin",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 355,
+    "name": "Magister Guard",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 356,
+    "name": "Dallis-Equiv",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 357,
+    "name": "Shadow Guard",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 358,
+    "name": "Shadow Scout",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 359,
+    "name": "Sae-Equiv",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 360,
+    "name": "Mind-Flayer-Equiv",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 361,
+    "name": "Goblin Berserker",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 362,
+    "name": "Ketheric-Equiv",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 363,
+    "name": "Avatar of Myrkul",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 364,
+    "name": "Hyper-Real Chimera",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 365,
+    "name": "UDE Chairman",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 366,
+    "name": "Memory of Less",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 367,
+    "name": "Memory of Carla",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 368,
+    "name": "Architect of Atrophy",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 369,
+    "name": "Sovereign of Cognitive Dissonance",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 370,
+    "name": "Heartless Lord of the Void",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
+  },
+  {
+    "id": 371,
+    "name": "Sightless Lord of the Void",
+    "battlerName": "",
+    "battlerHue": 0,
+    "params": [
+      100,
+      0,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "exp": 0,
+    "gold": 0,
+    "dropItems": [
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      },
+      {
+        "kind": 0,
+        "dataId": 1,
+        "denominator": 1
+      }
+    ],
+    "actions": [],
+    "traits": [],
+    "note": ""
   }
 ]

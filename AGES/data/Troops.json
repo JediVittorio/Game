@@ -5,18 +5,18 @@
     "members": [
       {
         "enemyId": 1,
-        "x": 336,
-        "y": 436,
+        "x": 400,
+        "y": 400,
         "hidden": false
       },
       {
         "enemyId": 1,
-        "x": 480,
-        "y": 436,
+        "x": 600,
+        "y": 400,
         "hidden": false
       }
     ],
-    "name": "Goblin*2",
+    "name": "Sentient Stop Sign*2",
     "pages": [
       {
         "conditions": {
@@ -49,18 +49,18 @@
     "members": [
       {
         "enemyId": 2,
-        "x": 337,
-        "y": 436,
+        "x": 400,
+        "y": 400,
         "hidden": false
       },
       {
-        "enemyId": 2,
-        "x": 480,
-        "y": 436,
+        "enemyId": 3,
+        "x": 600,
+        "y": 400,
         "hidden": false
       }
     ],
-    "name": "Gnome*2",
+    "name": "Dog & Skateboard",
     "pages": [
       {
         "conditions": {
@@ -92,22 +92,22 @@
     "id": 3,
     "members": [
       {
-        "enemyId": 65,
+        "enemyId": 30,
         "x": 640,
-        "y": 400,
+        "y": 440,
         "hidden": false
       }
     ],
-    "name": "Era 3 Boss",
+    "name": "Frank-Equiv",
     "pages": [
       {
         "conditions": {
-          "actorId": 1,
           "actorHp": 50,
+          "actorId": 1,
           "actorValid": false,
           "enemyHp": 50,
           "enemyIndex": 0,
-          "enemyValid": true,
+          "enemyValid": false,
           "switchId": 1,
           "switchValid": false,
           "turnA": 0,
@@ -117,30 +117,12 @@
         },
         "list": [
           {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Marquis: You cannot defeat me without the Z-Axis!"
-            ]
-          },
-          {
             "code": 0,
             "indent": 0,
             "parameters": []
           }
         ],
-        "span": 1
+        "span": 0
       }
     ]
   },
@@ -148,22 +130,28 @@
     "id": 4,
     "members": [
       {
-        "enemyId": 95,
-        "x": 640,
-        "y": 400,
+        "enemyId": 10,
+        "x": 400,
+        "y": 440,
+        "hidden": false
+      },
+      {
+        "enemyId": 11,
+        "x": 600,
+        "y": 440,
         "hidden": false
       }
     ],
-    "name": "Era 4 Boss",
+    "name": "Shark & Hula Kid",
     "pages": [
       {
         "conditions": {
-          "actorId": 1,
           "actorHp": 50,
+          "actorId": 1,
           "actorValid": false,
           "enemyHp": 50,
           "enemyIndex": 0,
-          "enemyValid": true,
+          "enemyValid": false,
           "switchId": 1,
           "switchValid": false,
           "turnA": 0,
@@ -173,30 +161,12 @@
         },
         "list": [
           {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "The Whale audits your sports franchise!"
-            ]
-          },
-          {
             "code": 0,
             "indent": 0,
             "parameters": []
           }
         ],
-        "span": 1
+        "span": 0
       }
     ]
   },
@@ -204,22 +174,22 @@
     "id": 5,
     "members": [
       {
-        "enemyId": 125,
-        "x": 640,
-        "y": 400,
+        "enemyId": 10,
+        "x": 520,
+        "y": 440,
         "hidden": false
       }
     ],
-    "name": "Era 5 Boss",
+    "name": "Arcade Shark",
     "pages": [
       {
         "conditions": {
-          "actorId": 1,
           "actorHp": 50,
+          "actorId": 1,
           "actorValid": false,
           "enemyHp": 50,
           "enemyIndex": 0,
-          "enemyValid": true,
+          "enemyValid": false,
           "switchId": 1,
           "switchValid": false,
           "turnA": 0,
@@ -229,39 +199,12 @@
         },
         "list": [
           {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Art Critic: This performance lacks nuance!"
-            ]
-          },
-          {
-            "code": 333,
-            "indent": 0,
-            "parameters": [
-              0,
-              0,
-              8
-            ]
-          },
-          {
             "code": 0,
             "indent": 0,
             "parameters": []
           }
         ],
-        "span": 1
+        "span": 0
       }
     ]
   },
@@ -269,22 +212,22 @@
     "id": 6,
     "members": [
       {
-        "enemyId": 155,
-        "x": 640,
-        "y": 400,
+        "enemyId": 11,
+        "x": 520,
+        "y": 440,
         "hidden": false
       }
     ],
-    "name": "Era 6 Boss",
+    "name": "Hula-Hoop Kid",
     "pages": [
       {
         "conditions": {
-          "actorId": 1,
           "actorHp": 50,
+          "actorId": 1,
           "actorValid": false,
           "enemyHp": 50,
           "enemyIndex": 0,
-          "enemyValid": true,
+          "enemyValid": false,
           "switchId": 1,
           "switchValid": false,
           "turnA": 0,
@@ -294,30 +237,12 @@
         },
         "list": [
           {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Avatar: You have a 99% chance to defeat me. So you will fail."
-            ]
-          },
-          {
             "code": 0,
             "indent": 0,
             "parameters": []
           }
         ],
-        "span": 1
+        "span": 0
       }
     ]
   },
@@ -1022,6 +947,33 @@
       }
     ]
   },
+  {
+    "id": 6,
+    "members": [
+      {"enemyId": 12, "x": 400, "y": 440, "hidden": false},
+      {"enemyId": 13, "x": 600, "y": 440, "hidden": false}
+    ],
+    "name": "Snake & Oak",
+    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
+  },
+  {
+    "id": 7,
+    "members": [{"enemyId": 31, "x": 520, "y": 440, "hidden": false}],
+    "name": "Manifestation of Adulthood",
+    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
+  },
+  {
+    "id": 12,
+    "members": [{"enemyId": 35, "x": 520, "y": 440, "hidden": false}],
+    "name": "Yakra",
+    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
+  },
+  {
+    "id": 13,
+    "members": [{"enemyId": 80, "x": 520, "y": 440, "hidden": false}],
+    "name": "Belias-Equiv",
+    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
+  },
   null,
   null,
   null,
@@ -1504,10 +1456,12 @@
   null,
   null,
   null,
-  null,
-  null,
-  null,
-  null,
+  {
+    "id": 92,
+    "members": [{"enemyId": 92, "x": 640, "y": 440, "hidden": false}],
+    "name": "Garuda-Equiv",
+    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
+  },
   null,
   null
 ]

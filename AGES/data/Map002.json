@@ -1,6 +1,6 @@
 {
-  "displayName": "Suburban Neighborhood",
-  "tilesetId": 2,
+  "displayName": "Less's House",
+  "tilesetId": 3,
   "width": 17,
   "height": 13,
   "scrollType": 0,
@@ -1362,7 +1362,7 @@
     null,
     {
       "id": 1,
-      "name": "Nosy Neighbor",
+      "name": "Meteor Missing Cutscene",
       "note": "",
       "pages": [
         {
@@ -1384,94 +1384,95 @@
           "directionFix": false,
           "image": {
             "characterIndex": 0,
-            "characterName": "People1",
+            "characterName": "",
             "direction": 2,
             "pattern": 0,
             "tileId": 0
           },
           "list": [
             {
-              "code": 355,
+              "code": 101,
               "indent": 0,
               "parameters": [
-                "const targetEnemyId = 1;"
+                "",
+                0,
+                0,
+                2,
+                ""
               ]
             },
             {
-              "code": 655,
+              "code": 401,
               "indent": 0,
               "parameters": [
-                "const partyLevel = $gameParty.highestLevel();"
+                "A faint rumble shakes the house..."
               ]
             },
             {
-              "code": 655,
+              "code": 231,
               "indent": 0,
               "parameters": [
-                "const enemyPower = 1;"
+                1,
+                "SF_Monster_7",
+                0,
+                0,
+                0,
+                0,
+                100,
+                100,
+                255,
+                0
               ]
             },
             {
-              "code": 655,
+              "code": 232,
               "indent": 0,
               "parameters": [
-                "if (partyLevel >= enemyPower + 5) {"
+                1,
+                0,
+                0,
+                0,
+                1280,
+                0,
+                100,
+                100,
+                255,
+                0,
+                120,
+                true
               ]
             },
             {
-              "code": 655,
+              "code": 101,
               "indent": 0,
               "parameters": [
-                "    SoundManager.playOk();"
+                "",
+                0,
+                0,
+                2,
+                ""
               ]
             },
             {
-              "code": 655,
+              "code": 401,
               "indent": 0,
               "parameters": [
-                "    $gameParty.gainGold(5);"
+                "The apocalypse is scheduled for never. Have a nice day."
               ]
             },
             {
-              "code": 655,
+              "code": 235,
               "indent": 0,
               "parameters": [
-                "    $gameParty.allMembers().forEach(a => a.gainExp(10));"
+                1
               ]
             },
             {
-              "code": 655,
+              "code": 123,
               "indent": 0,
               "parameters": [
-                "    this.character(0).erase();"
-              ]
-            },
-            {
-              "code": 655,
-              "indent": 0,
-              "parameters": [
-                "} else {"
-              ]
-            },
-            {
-              "code": 655,
-              "indent": 0,
-              "parameters": [
-                "    BattleManager.setup(targetEnemyId, true, true);"
-              ]
-            },
-            {
-              "code": 655,
-              "indent": 0,
-              "parameters": [
-                "    SceneManager.push(Scene_Battle);"
-              ]
-            },
-            {
-              "code": 655,
-              "indent": 0,
-              "parameters": [
-                "}"
+                "A",
+                0
               ]
             },
             {
@@ -1493,20 +1494,71 @@
             "wait": false
           },
           "moveSpeed": 3,
-          "moveType": 1,
-          "priorityType": 1,
+          "moveType": 0,
+          "priorityType": 0,
           "stepAnime": false,
           "through": false,
-          "trigger": 1,
+          "trigger": 3,
+          "walkAnime": true
+        },
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": true,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "",
+            "direction": 2,
+            "pattern": 0,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 0,
+          "stepAnime": false,
+          "through": false,
+          "trigger": 0,
           "walkAnime": true
         }
       ],
-      "x": 5,
-      "y": 5
+      "x": 0,
+      "y": 0
     },
     {
       "id": 2,
-      "name": "Lemonade Stand",
+      "name": "Mom",
       "note": "",
       "pages": [
         {
@@ -1527,9 +1579,9 @@
           },
           "directionFix": true,
           "image": {
-            "characterIndex": 0,
-            "characterName": "!SF_Outside_C",
-            "direction": 2,
+            "characterIndex": 1,
+            "characterName": "People1",
+            "direction": 8,
             "pattern": 1,
             "tileId": 0
           },
@@ -1549,55 +1601,35 @@
               "code": 401,
               "indent": 0,
               "parameters": [
-                "A very suspicious child is selling lemonade."
+                "Mother: Did you sleep well, Less? You were mumbling something about 'source code' and 'bit-depth.'"
               ]
             },
             {
-              "code": 102,
+              "code": 401,
               "indent": 0,
               "parameters": [
-                [
-                  "Buy (5G)",
-                  "Steal",
-                  "Ignore"
-                ],
-                2,
-                0,
-                2,
-                0
-              ]
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                0,
-                "Buy (5G)"
+                "Go play outside, but stay away from the lemonade stand. They're... aggressive."
               ]
             },
             {
               "code": 111,
-              "indent": 1,
+              "indent": 0,
               "parameters": [
-                11,
-                5,
-                0
+                2,
+                "B",
+                1
               ]
             },
             {
-              "code": 125,
-              "indent": 2,
-              "parameters": [
-                1,
-                0,
-                5
-              ]
+              "code": 411,
+              "indent": 0,
+              "parameters": []
             },
             {
               "code": 126,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
-                8,
+                1,
                 0,
                 0,
                 1
@@ -1605,35 +1637,7 @@
             },
             {
               "code": 101,
-              "indent": 2,
-              "parameters": [
-                "",
-                0,
-                0,
-                2,
-                ""
-              ]
-            },
-            {
-              "code": 401,
-              "indent": 2,
-              "parameters": [
-                "You got a Lemonade."
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
-            },
-            {
-              "code": 411,
               "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 101,
-              "indent": 2,
               "parameters": [
                 "",
                 0,
@@ -1644,59 +1648,21 @@
             },
             {
               "code": 401,
-              "indent": 2,
+              "indent": 1,
               "parameters": [
-                "You can't afford this childhood staple."
+                "You got a Stale Hamburger."
               ]
             },
             {
-              "code": 0,
-              "indent": 2,
-              "parameters": []
+              "code": 123,
+              "indent": 1,
+              "parameters": [
+                "B",
+                0
+              ]
             },
             {
               "code": 412,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                1,
-                "Steal"
-              ]
-            },
-            {
-              "code": 301,
-              "indent": 1,
-              "parameters": [
-                0,
-                1,
-                false,
-                true
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 402,
-              "indent": 0,
-              "parameters": [
-                2,
-                "Ignore"
-              ]
-            },
-            {
-              "code": 0,
-              "indent": 1,
-              "parameters": []
-            },
-            {
-              "code": 404,
               "indent": 0,
               "parameters": []
             },
@@ -1727,12 +1693,97 @@
           "walkAnime": true
         }
       ],
-      "x": 10,
-      "y": 8
+      "x": 8,
+      "y": 6
     },
     {
       "id": 3,
-      "name": "To Arcade",
+      "name": "TV",
+      "note": "",
+      "pages": [
+        {
+          "conditions": {
+            "actorId": 1,
+            "actorValid": false,
+            "itemId": 1,
+            "itemValid": false,
+            "selfSwitchCh": "A",
+            "selfSwitchValid": false,
+            "switch1Id": 1,
+            "switch1Valid": false,
+            "switch2Id": 1,
+            "switch2Valid": false,
+            "variableId": 1,
+            "variableValid": false,
+            "variableValue": 0
+          },
+          "directionFix": false,
+          "image": {
+            "characterIndex": 0,
+            "characterName": "!SF_Inside_C",
+            "direction": 2,
+            "pattern": 1,
+            "tileId": 0
+          },
+          "list": [
+            {
+              "code": 101,
+              "indent": 0,
+              "parameters": [
+                "",
+                0,
+                0,
+                2,
+                ""
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "The TV is playing a loop of a meteor missing the Earth."
+              ]
+            },
+            {
+              "code": 401,
+              "indent": 0,
+              "parameters": [
+                "Captions: 'ANOTHER NEAR MISS! CIVILIZATION CONTINUES UNINTERRUPTED.'"
+              ]
+            },
+            {
+              "code": 0,
+              "indent": 0,
+              "parameters": []
+            }
+          ],
+          "moveFrequency": 3,
+          "moveRoute": {
+            "list": [
+              {
+                "code": 0,
+                "parameters": []
+              }
+            ],
+            "repeat": true,
+            "skippable": false,
+            "wait": false
+          },
+          "moveSpeed": 3,
+          "moveType": 0,
+          "priorityType": 1,
+          "stepAnime": true,
+          "through": false,
+          "trigger": 0,
+          "walkAnime": true
+        }
+      ],
+      "x": 5,
+      "y": 6
+    },
+    {
+      "id": 4,
+      "name": "Exit House",
       "note": "",
       "pages": [
         {
@@ -1777,7 +1828,7 @@
               "indent": 0,
               "parameters": [
                 0,
-                14,
+                3,
                 8,
                 11,
                 8,
@@ -1811,8 +1862,8 @@
           "walkAnime": true
         }
       ],
-      "x": 15,
-      "y": 6
+      "x": 8,
+      "y": 12
     }
   ],
   "note": ""

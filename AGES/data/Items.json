@@ -2,7 +2,7 @@
   null,
   {
     "id": 1,
-    "animationId": 0,
+    "animationId": 41,
     "consumable": true,
     "damage": {
       "critical": false,
@@ -11,15 +11,22 @@
       "type": 0,
       "variance": 20
     },
-    "description": "Below are spaces for when you would like to display\nitems above the recovery items.",
-    "effects": [],
+    "description": "A standard suburban snack. Restores 30 HP.",
+    "effects": [
+      {
+        "code": 11,
+        "dataId": 0,
+        "value1": 0,
+        "value2": 30
+      }
+    ],
     "hitType": 0,
-    "iconIndex": 0,
+    "iconIndex": 176,
     "itypeId": 1,
-    "name": "-----Reserved",
+    "name": "Stale Hamburger",
     "note": "",
-    "occasion": 3,
-    "price": 0,
+    "occasion": 0,
+    "price": 5,
     "repeats": 1,
     "scope": 7,
     "speed": 0,
@@ -28,7 +35,7 @@
   },
   {
     "id": 2,
-    "animationId": 0,
+    "animationId": 41,
     "consumable": true,
     "damage": {
       "critical": false,
@@ -37,15 +44,22 @@
       "type": 0,
       "variance": 20
     },
-    "description": "",
-    "effects": [],
+    "description": "A lukewarm beverage of unknown origin. Restores 10 MP.",
+    "effects": [
+      {
+        "code": 12,
+        "dataId": 0,
+        "value1": 0,
+        "value2": 10
+      }
+    ],
     "hitType": 0,
-    "iconIndex": 0,
+    "iconIndex": 177,
     "itypeId": 1,
-    "name": "",
+    "name": "Dirty Soda",
     "note": "",
     "occasion": 0,
-    "price": 0,
+    "price": 10,
     "repeats": 1,
     "scope": 7,
     "speed": 0,
@@ -54,7 +68,7 @@
   },
   {
     "id": 3,
-    "animationId": 0,
+    "animationId": 41,
     "consumable": true,
     "damage": {
       "critical": false,
@@ -63,15 +77,22 @@
       "type": 0,
       "variance": 20
     },
-    "description": "",
-    "effects": [],
+    "description": "A slice of pizza that has seen better days. Restores 100 HP.",
+    "effects": [
+      {
+        "code": 11,
+        "dataId": 0,
+        "value1": 0,
+        "value2": 100
+      }
+    ],
     "hitType": 0,
-    "iconIndex": 0,
+    "iconIndex": 178,
     "itypeId": 1,
-    "name": "",
+    "name": "Cold Pizza",
     "note": "",
     "occasion": 0,
-    "price": 0,
+    "price": 20,
     "repeats": 1,
     "scope": 7,
     "speed": 0,
@@ -81,7 +102,7 @@
   {
     "id": 4,
     "animationId": 0,
-    "consumable": true,
+    "consumable": false,
     "damage": {
       "critical": false,
       "elementId": 0,
@@ -89,17 +110,17 @@
       "type": 0,
       "variance": 20
     },
-    "description": "",
+    "description": "A greasy plastic card found in a storm drain. Grants access to the Sharks' lair.",
     "effects": [],
     "hitType": 0,
-    "iconIndex": 0,
-    "itypeId": 1,
-    "name": "",
+    "iconIndex": 179,
+    "itypeId": 2,
+    "name": "Key to the Arcade",
     "note": "",
-    "occasion": 0,
+    "occasion": 3,
     "price": 0,
     "repeats": 1,
-    "scope": 7,
+    "scope": 0,
     "speed": 0,
     "successRate": 100,
     "tpGain": 0
@@ -2080,5 +2101,149 @@
   null,
   null,
   null,
-  null
+  null,
+  {
+    "id": 421,
+    "name": "Dirty Soda",
+    "description": "A lukewarm beverage of unknown origin. Restores 50 MP but tastes like static.",
+    "iconIndex": 0,
+    "price": 10,
+    "itypeId": 1,
+    "consumable": true,
+    "scope": 7,
+    "occasion": 0,
+    "animationId": 0,
+    "damage": {
+      "type": 0,
+      "elementId": 0,
+      "formula": "0",
+      "variance": 20,
+      "critical": false
+    },
+    "effects": [
+      {
+        "code": 12,
+        "dataId": 0,
+        "value1": 0,
+        "value2": 50
+      }
+    ],
+    "hitType": 0,
+    "repeats": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0,
+    "note": ""
+  },
+  {
+    "id": 422,
+    "name": "Cold Pizza",
+    "description": "A slice of pizza that has seen better days. Tastes like nostalgia. Restores 100 HP.",
+    "iconIndex": 0,
+    "price": 20,
+    "itypeId": 1,
+    "consumable": true,
+    "scope": 7,
+    "occasion": 0,
+    "animationId": 0,
+    "damage": {
+      "type": 0,
+      "elementId": 0,
+      "formula": "0",
+      "variance": 20,
+      "critical": false
+    },
+    "effects": [
+      {
+        "code": 11,
+        "dataId": 0,
+        "value1": 0,
+        "value2": 100
+      }
+    ],
+    "hitType": 0,
+    "repeats": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0,
+    "note": ""
+  },
+  {
+    "id": 423,
+    "name": "Key to the Arcade",
+    "description": "A greasy plastic card found in a storm drain. Grants access to the Sharks' lair.",
+    "iconIndex": 0,
+    "price": 0,
+    "itypeId": 2,
+    "consumable": true,
+    "scope": 7,
+    "occasion": 0,
+    "animationId": 0,
+    "damage": {
+      "type": 0,
+      "elementId": 0,
+      "formula": "0",
+      "variance": 20,
+      "critical": false
+    },
+    "effects": [],
+    "hitType": 0,
+    "repeats": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0,
+    "note": ""
+  },
+  {
+    "id": 424,
+    "name": "Mana Sphere",
+    "description": "A mana sphere containing distilled magic. Permanently increases MAT by 1.",
+    "iconIndex": 0,
+    "price": 500,
+    "itypeId": 1,
+    "consumable": true,
+    "scope": 7,
+    "occasion": 0,
+    "animationId": 0,
+    "damage": {
+      "type": 0,
+      "elementId": 0,
+      "formula": "0",
+      "variance": 20,
+      "critical": false
+    },
+    "effects": [],
+    "hitType": 0,
+    "repeats": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0,
+    "note": ""
+  },
+  {
+    "id": 425,
+    "name": "Power Sphere",
+    "description": "A power sphere containing distilled strength. Permanently increases ATK by 1.",
+    "iconIndex": 0,
+    "price": 500,
+    "itypeId": 1,
+    "consumable": true,
+    "scope": 7,
+    "occasion": 0,
+    "animationId": 0,
+    "damage": {
+      "type": 0,
+      "elementId": 0,
+      "formula": "0",
+      "variance": 20,
+      "critical": false
+    },
+    "effects": [],
+    "hitType": 0,
+    "repeats": 1,
+    "speed": 0,
+    "successRate": 100,
+    "tpGain": 0,
+    "note": ""
+  }
 ]

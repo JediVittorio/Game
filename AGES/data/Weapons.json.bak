@@ -729,7 +729,7 @@
   {
     "id": 23,
     "animationId": 6,
-    "description": "[Axe] A battle axe forged from the fangs of a dragon.",
+    "description": "A handheld steam-powered projectile device. Tends to overheat.",
     "etypeId": 1,
     "traits": [
       {
@@ -744,19 +744,19 @@
       }
     ],
     "iconIndex": 99,
-    "name": "Dragon Axe",
+    "name": "DIY Gun",
     "note": "",
     "params": [
       0,
       0,
-      45,
+      15,
       0,
       0,
       0,
       0,
       0
     ],
-    "price": 9600,
+    "price": 300,
     "wtypeId": 4
   },
   {
@@ -992,46 +992,25 @@
   },
   {
     "id": 31,
-    "animationId": 1,
-    "description": "[Glove] A battle glove with spikes attached to its\nknuckles.",
+    "animationId": 6,
+    "description": "A sword that complies with height restrictions.",
     "etypeId": 1,
-    "traits": [
-      {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
-      },
-      {
-        "code": 54,
-        "dataId": 2,
-        "value": 1
-      },
-      {
-        "code": 34,
-        "dataId": 0,
-        "value": 1
-      }
-    ],
-    "iconIndex": 106,
-    "name": "Cestus",
+    "traits": [],
+    "iconIndex": 96,
+    "name": "Zoning Permit Sword",
     "note": "",
     "params": [
       0,
       0,
-      5,
-      5,
+      15,
+      0,
       0,
       0,
       0,
       0
     ],
-    "price": 360,
-    "wtypeId": 11
+    "price": 100,
+    "wtypeId": 2
   },
   {
     "id": 32,
@@ -1372,36 +1351,31 @@
   },
   {
     "id": 41,
-    "animationId": 11,
-    "description": "[Bow] A long bow for battle made with dragon’s\nwhiskers.",
+    "animationId": 6,
+    "description": "0 ATK. Deals emotional damage to the union.",
     "etypeId": 1,
     "traits": [
       {
         "code": 31,
-        "dataId": 1,
-        "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
+        "dataId": 5,
         "value": 0
       }
     ],
-    "iconIndex": 102,
-    "name": "Dragon Bow",
+    "iconIndex": 96,
+    "name": "Sports Franchise Blade",
     "note": "",
     "params": [
       0,
       0,
-      28,
+      0,
       0,
       0,
       0,
       0,
       0
     ],
-    "price": 5980,
-    "wtypeId": 7
+    "price": 100,
+    "wtypeId": 2
   },
   {
     "id": 42,
@@ -1700,6 +1674,28 @@
     "price": 0,
     "wtypeId": 0
   },
+  {
+    "id": 51,
+    "animationId": 6,
+    "description": "A flat 2D hammer.",
+    "etypeId": 1,
+    "traits": [],
+    "iconIndex": 96,
+    "name": "Cardboard Mallet",
+    "note": "",
+    "params": [
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 4
+  },
   null,
   null,
   null,
@@ -1709,6 +1705,28 @@
   null,
   null,
   null,
+  {
+    "id": 61,
+    "animationId": 6,
+    "description": "The barrel is touching their head. You will miss.",
+    "etypeId": 1,
+    "traits": [],
+    "iconIndex": 96,
+    "name": "Plasma Rifle (99% Miss)",
+    "note": "",
+    "params": [
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 9
+  },
   null,
   null,
   null,
@@ -1718,6 +1736,28 @@
   null,
   null,
   null,
+  {
+    "id": 71,
+    "animationId": 6,
+    "description": "Ignites the entire continent.",
+    "etypeId": 1,
+    "traits": [],
+    "iconIndex": 96,
+    "name": "Cursed Oil Wand",
+    "note": "",
+    "params": [
+      0,
+      0,
+      18,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 6
+  },
   null,
   null,
   null,
@@ -1727,6 +1767,28 @@
   null,
   null,
   null,
+  {
+    "id": 81,
+    "animationId": 6,
+    "description": "It looks real enough to do damage in the Metaverse.",
+    "etypeId": 1,
+    "traits": [],
+    "iconIndex": 96,
+    "name": "Airsoft Pistol",
+    "note": "",
+    "params": [
+      0,
+      0,
+      22,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 9
+  },
   null,
   null,
   null,
@@ -1736,6 +1798,28 @@
   null,
   null,
   null,
+  {
+    "id": 91,
+    "animationId": 6,
+    "description": "Deals 1d8 slashing damage + STR modifier.",
+    "etypeId": 1,
+    "traits": [],
+    "iconIndex": 96,
+    "name": "1d8 Longsword of Tragedy",
+    "note": "",
+    "params": [
+      0,
+      0,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 2
+  },
   null,
   null,
   null,
@@ -1745,6 +1829,28 @@
   null,
   null,
   null,
+  {
+    "id": 101,
+    "animationId": 6,
+    "description": "Attack animations drop frames randomly.",
+    "etypeId": 1,
+    "traits": [],
+    "iconIndex": 96,
+    "name": "Glitched Rapier",
+    "note": "",
+    "params": [
+      0,
+      0,
+      25,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 2
+  },
   null,
   null,
   null,
@@ -1754,13 +1860,28 @@
   null,
   null,
   null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
+  {
+    "id": 111,
+    "animationId": 6,
+    "description": "A blade that remembers previous timeline failures.",
+    "etypeId": 1,
+    "traits": [],
+    "iconIndex": 96,
+    "name": "Save-Scum Sword",
+    "note": "",
+    "params": [
+      0,
+      0,
+      30,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 100,
+    "wtypeId": 2
+  },
   null,
   null,
   null,

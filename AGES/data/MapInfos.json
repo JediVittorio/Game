@@ -11,24 +11,80 @@
   },
   {
     "id": 2,
-    "name": "DirtBound - Neighborhood",
+    "name": "Less's House",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
     "scrollY": 0,
     "order": 2
   },
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
+  {
+    "id": 3,
+    "name": "DirtBound Town",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 3
+  },
+  {
+    "id": 4,
+    "name": "Carla's House",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 4
+  },
+  {
+    "id": 5,
+    "name": "Geoff's Laboratory",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 5
+  },
+  {
+    "id": 6,
+    "name": "The Drug Store",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 6
+  },
+  {
+    "id": 7,
+    "name": "The Arcade",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 7
+  },
+  {
+    "id": 8,
+    "name": "The Deep Woods",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 8
+  },
+  {
+    "id": 9,
+    "name": "The Meteor Crater",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 9
+  },
   null,
   {
     "id": 11,
-    "name": "Era 2 - Prehistoric",
+    "name": "Millennial Fairground",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
@@ -37,7 +93,7 @@
   },
   {
     "id": 12,
-    "name": "Era 2 - Utopia",
+    "name": "The Portal Area",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
@@ -46,7 +102,7 @@
   },
   {
     "id": 13,
-    "name": "Era 2 - Ruined",
+    "name": "The Year 600",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
@@ -55,7 +111,7 @@
   },
   {
     "id": 14,
-    "name": "DirtBound - Arcade",
+    "name": "Manolia Cathedral",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
@@ -64,7 +120,7 @@
   },
   {
     "id": 15,
-    "name": "Era 3 - Municipal Building",
+    "name": "The End of Time",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
@@ -118,7 +174,7 @@
   },
   {
     "id": 21,
-    "name": "Era 8 - Beef Bowl",
+    "name": "Gariland Rooftops",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
@@ -127,7 +183,7 @@
   },
   {
     "id": 22,
-    "name": "Era 8 - Exam Palace",
+    "name": "Dorter Slums",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
@@ -208,7 +264,7 @@
   },
   {
     "id": 31,
-    "name": "Stage 2 - Phase 3",
+    "name": "Besaid Beach",
     "parentId": 0,
     "expanded": false,
     "scrollX": 0,
@@ -547,5 +603,196 @@
     "scrollX": 0,
     "scrollY": 0,
     "order": 60
+  },
+  {
+    "id": 69,
+    "name": "The Portal Area",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 61
+  },
+  {
+    "id": 70,
+    "name": "The Year 600",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 62
+  },
+  {
+    "id": 71,
+    "name": "Besaid Beach",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 63
+  },
+  {
+    "id": 72,
+    "name": "Mi'ihen Highroad",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 64
+  },
+  {
+    "id": 73,
+    "name": "Mi'ihen Highroad",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 65
+  },
+  {
+    "id": 74,
+    "name": "Rogueport Hub",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 66
+  },
+  {
+    "id": 75,
+    "name": "Cardboard Woods",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 67
+  },
+  {
+    "id": 76,
+    "name": "Resistance Safehouse",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 68
+  },
+  {
+    "id": 77,
+    "name": "Urban Block",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 69
+  },
+  {
+    "id": 78,
+    "name": "Alien Research Facility",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 70
+  },
+  {
+    "id": 79,
+    "name": "Fort Joy Beach",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 71
+  },
+  {
+    "id": 80,
+    "name": "Prison Dungeons",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 72
+  },
+  {
+    "id": 81,
+    "name": "Casino of Envy",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 73
+  },
+  {
+    "id": 82,
+    "name": "Goblin Camp",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 74
+  },
+  {
+    "id": 83,
+    "name": "The Gilded Ruins",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 75
+  },
+  {
+    "id": 84,
+    "name": "The Grand Pyre",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 76
+  },
+  {
+    "id": 85,
+    "name": "Awakening Room Phase 0",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 77
+  },
+  {
+    "id": 86,
+    "name": "Awakening Room Phase 0",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 78
+  },
+  {
+    "id": 87,
+    "name": "Awakening Room Phase 2",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 79
+  },
+  {
+    "id": 88,
+    "name": "Floor 1: The Shallow Graves",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 80
+  },
+  {
+    "id": 89,
+    "name": "Floor 3: The Shallow Graves",
+    "parentId": 0,
+    "expanded": false,
+    "scrollX": 0,
+    "scrollY": 0,
+    "order": 81
+  }
+]": 81
   }
 ]

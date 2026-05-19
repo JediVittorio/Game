@@ -3,53 +3,58 @@
   {
     "id": 1,
     "list": [
-      {
-        "code": 221,
-        "indent": 0,
-        "parameters": []
-      },
-      {
-        "code": 101,
-        "indent": 0,
-        "parameters": [
-          "",
-          0,
-          0,
-          2,
-          ""
-        ]
-      },
-      {
-        "code": 401,
-        "indent": 0,
-        "parameters": [
-          "The fabric of time shifts as your memories realign..."
-        ]
-      },
-      {
-        "code": 201,
-        "indent": 0,
-        "parameters": [
-          0,
-          1,
-          8,
-          6,
-          0,
-          0
-        ]
-      },
-      {
-        "code": 222,
-        "indent": 0,
-        "parameters": []
-      },
-      {
-        "code": 0,
-        "indent": 0,
-        "parameters": []
-      }
+      { "code": 221, "indent": 0, "parameters": [] },
+      { "code": 111, "indent": 0, "parameters": [1, 10, 0, 1, 0] },
+      { "code": 224, "indent": 1, "parameters": [[255, 255, 255, 255], 10, true] },
+      { "code": 101, "indent": 1, "parameters": ["", 0, 0, 2] },
+      { "code": 401, "indent": 1, "parameters": ["Calibration complete. Upgrading bit-depth."] },
+      { "code": 401, "indent": 1, "parameters": ["Synchronizing time... Chrono-Bound protocol initialized."] },
+      { "code": 122, "indent": 1, "parameters": [10, 10, 0, 0, 2] },
+      { "code": 122, "indent": 1, "parameters": [11, 11, 0, 0, 2] },
+      { "code": 355, "indent": 1, "parameters": [
+        "for (let i = 1; i <= 40; i++) { $gameParty.loseItem($dataItems[i], 9999); }",
+        "$gameParty.removeActor(1);",
+        "$gameParty.removeActor(2);",
+        "$gameParty.removeActor(3);"
+      ] },
+      { "code": 201, "indent": 1, "parameters": [0, 11, 10, 10, 0, 0] },
+      { "code": 0, "indent": 1, "parameters": [] },
+      { "code": 411, "indent": 0, "parameters": [] },
+      { "code": 111, "indent": 1, "parameters": [1, 10, 0, 2, 0] },
+      { "code": 224, "indent": 2, "parameters": [[200, 200, 255, 128], 30, true] },
+      { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+      { "code": 401, "indent": 2, "parameters": ["Upgrading perspective. Isometric projection... ENABLED."] },
+      { "code": 401, "indent": 2, "parameters": ["Grid-logic... SYNCING."] },
+      { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 3] },
+      { "code": 122, "indent": 2, "parameters": [11, 11, 0, 0, 3] },
+      { "code": 355, "indent": 2, "parameters": [
+        "for (let i = 41; i <= 80; i++) { $gameParty.loseItem($dataItems[i], 9999); }",
+        "$gameParty.removeActor(11);",
+        "$gameParty.removeActor(12);",
+        "$gameParty.removeActor(13);"
+      ] },
+      { "code": 201, "indent": 2, "parameters": [0, 21, 10, 10, 0, 0] },
+      { "code": 0, "indent": 2, "parameters": [] },
+      { "code": 412, "indent": 1, "parameters": [] },
+      { "code": 111, "indent": 1, "parameters": [1, 10, 0, 3, 0] },
+      { "code": 224, "indent": 2, "parameters": [[255, 255, 255, 255], 10, true] },
+      { "code": 101, "indent": 2, "parameters": ["", 0, 0, 2] },
+      { "code": 401, "indent": 2, "parameters": ["Enabling Conditional Timeline. UI Update: CTB BAR... ONLINE."] },
+      { "code": 122, "indent": 2, "parameters": [10, 10, 0, 0, 4] },
+      { "code": 122, "indent": 2, "parameters": [11, 11, 0, 0, 4] },
+      { "code": 355, "indent": 2, "parameters": [
+        "for (let i = 81; i <= 120; i++) { $gameParty.loseItem($dataItems[i], 9999); }",
+        "$gameParty.removeActor(21);"
+      ] },
+      { "code": 201, "indent": 2, "parameters": [0, 31, 10, 10, 0, 0] },
+      { "code": 0, "indent": 2, "parameters": [] },
+      { "code": 412, "indent": 1, "parameters": [] },
+      { "code": 0, "indent": 1, "parameters": [] },
+      { "code": 412, "indent": 0, "parameters": [] },
+      { "code": 222, "indent": 0, "parameters": [] },
+      { "code": 0, "indent": 0, "parameters": [] }
     ],
-    "name": "Era Transition Cutscene",
+    "name": "ERA_TRANSITION_ROUTINE",
     "switchId": 1,
     "trigger": 0
   },
@@ -858,7 +863,7 @@
   },
   {
     "id": 10,
-    "name": "Protagonist Battle & Aftermath",
+    "name": "BATTLE_HP_ROLL",
     "switchId": 1,
     "trigger": 0,
     "list": [
@@ -866,115 +871,15 @@
         "code": 355,
         "indent": 0,
         "parameters": [
-          "for(let i=1; i<=520; i++) { if([i]) .actor(1).learnSkill(i); }"
+          "// BATTLE_HP_ROLL: Visual odometer effect",
+          "$gameParty.allMembers().forEach(actor => {",
+          "  if (actor.hp > actor._visualHp) {",
+          "    actor._visualHp = Math.min(actor.hp, actor._visualHp + 5);",
+          "  } else if (actor.hp < actor._visualHp) {",
+          "    actor._visualHp = Math.max(actor.hp, actor._visualHp - 5);",
+          "  }",
+          "});"
         ]
-      },
-      {
-        "code": 101,
-        "indent": 0,
-        "parameters": [
-          "",
-          0,
-          0,
-          2,
-          ""
-        ]
-      },
-      {
-        "code": 401,
-        "indent": 0,
-        "parameters": [
-          "[SIMULATION COLLAPSE INITIATED]"
-        ]
-      },
-      {
-        "code": 401,
-        "indent": 0,
-        "parameters": [
-          "[DATABASE CONFLATION: ALL ABILITIES GRANTED]"
-        ]
-      },
-      {
-        "code": 301,
-        "indent": 0,
-        "parameters": [
-          0,
-          12,
-          false,
-          false
-        ]
-      },
-      {
-        "code": 221,
-        "indent": 0,
-        "parameters": []
-      },
-      {
-        "code": 230,
-        "indent": 0,
-        "parameters": [
-          480
-        ]
-      },
-      {
-        "code": 101,
-        "indent": 0,
-        "parameters": [
-          "",
-          0,
-          0,
-          2,
-          ""
-        ]
-      },
-      {
-        "code": 401,
-        "indent": 0,
-        "parameters": [
-          "... I knew you could do it."
-        ]
-      },
-      {
-        "code": 401,
-        "indent": 0,
-        "parameters": [
-          "I just didn't know if you'd want to."
-        ]
-      },
-      {
-        "code": 201,
-        "indent": 0,
-        "parameters": [
-          0,
-          27,
-          8,
-          6,
-          0,
-          0
-        ]
-      },
-      {
-        "code": 101,
-        "indent": 0,
-        "parameters": [
-          "",
-          0,
-          0,
-          2,
-          ""
-        ]
-      },
-      {
-        "code": 401,
-        "indent": 0,
-        "parameters": [
-          "You weren't supposed to go further."
-        ]
-      },
-      {
-        "code": 222,
-        "indent": 0,
-        "parameters": []
       },
       {
         "code": 0,
@@ -1139,6 +1044,16 @@
         "indent": 0,
         "parameters": []
       }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "GAIN_JP",
+    "switchId": 1,
+    "trigger": 0,
+    "list": [
+      { "code": 122, "indent": 0, "parameters": [21, 21, 1, 0, 10] },
+      { "code": 0, "indent": 0, "parameters": [] }
     ]
   }
 ]

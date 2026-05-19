@@ -450,7 +450,7 @@
     "",
     "",
     "Cheats Active / Save State",
-    "Tutorial Safety Bypass"
+    "TUTORIAL_SAFETY"
   ],
   "terms": {
     "basic": [
@@ -632,13 +632,13 @@
     "",
     "",
     "Current Era Number",
-    "Active Battle System Type",
-    "Player Charisma/Social Modifier",
-    "Proficiency Bonus",
-    "",
+    "CURRENT_ERA",
+    "BATTLE_TYPE",
+    "GLITCH_FRAGMENTS",
+    "ACTIVE_STRATUM",
+    "CHAOS_LEVEL",
     "Era 5 Superguard Success State",
     "Era 5 Action Command State",
-    "",
     "",
     "",
     "",
@@ -723,7 +723,7 @@
     "",
     ""
   ],
-  "versionId": 215795453,
+  "versionId": 255171286,
   "victoryMe": {
     "name": "Victory1",
     "pan": 0,

@@ -21,7 +21,7 @@
     "name": "Less",
     "nickname": "Chosen Boy",
     "note": "<OdometerRoll: true>",
-    "profile": "A painfully generic boy with a striped shirt and maternal neglect. Psychic potential."
+    "profile": "Wears a striped shirt and carries a profound sense of maternal neglect. The personification of going through the motions."
   },
   {
     "id": 2,
@@ -65,9 +65,9 @@
     "initialLevel": 1,
     "maxLevel": 99,
     "name": "Geoff",
-    "nickname": "Tiny War Criminal",
+    "nickname": "Child Inventor",
     "note": "<OdometerRoll: true>",
-    "profile": "A child inventor whose gadgets violate international arms treaties."
+    "profile": "Arms Dealer Prodigy. His inventions are 90% likely to explode and 100% likely to result in a lawsuit."
   },
   {
     "id": 4,
@@ -205,7 +205,7 @@
     "name": "Krono",
     "nickname": "Mute Hero",
     "note": "<Action ATB Cost: 100%>",
-    "profile": "A dramatic and silent protagonist who communicates through aggressive nods and property damage."
+    "profile": "Has spiky hair and a sword. Does not speak, yet everyone understands his every thought."
   },
   {
     "id": 12,
@@ -228,14 +228,14 @@
     "name": "Ruca",
     "nickname": "Toaster Smith",
     "note": "<Custom Area Of Effect: Circle, Radius 120>",
-    "profile": "A brilliant engineer whose inventions are as dangerous to her allies as they are to her enemies."
+    "profile": "A scientific genius with a penchant for high-explosive 'calibrations.'"
   },
   {
     "id": 13,
     "battlerName": "Actor2_3",
-    "characterIndex": 0,
+    "characterIndex": 2,
     "characterName": "Actor2",
-    "classId": 11,
+    "classId": 13,
     "equips": [
       2,
       0,
@@ -243,15 +243,15 @@
       0,
       0
     ],
-    "faceIndex": 0,
+    "faceIndex": 2,
     "faceName": "Actor2",
     "traits": [],
     "initialLevel": 1,
     "maxLevel": 99,
     "name": "Toad",
     "nickname": "Frog of Law",
-    "note": "<Chain Requirement: Krono, Toad>",
-    "profile": "An embittered knight cursed into frog form. Concerned with alimony and court cases."
+    "note": "",
+    "profile": "A knight cursed with an amphibian form, carrying a heavy burden of chivalry and regret."
   },
   null,
   null,
@@ -281,9 +281,9 @@
     "initialLevel": 1,
     "maxLevel": 99,
     "name": "Romza",
-    "nickname": "Heretic",
+    "nickname": "The Squire",
     "note": "",
-    "profile": "Protagonist of Era 2."
+    "profile": "A determined squire navigating the complex politics and tactical grids of Ivalice-Equiv."
   },
   {
     "id": 22,
@@ -334,10 +334,10 @@
     "traits": [],
     "initialLevel": 1,
     "maxLevel": 99,
-    "name": "Tadpole",
-    "nickname": "Star Player",
-    "note": "",
-    "profile": "Protagonist of Era 3."
+    "name": "Tidus-Archetype",
+    "nickname": "Blitz-Star",
+    "note": "<CTB Speed: 50%>",
+    "profile": "A displaced star from a city that shouldn't exist. Exceptional agility."
   },
   {
     "id": 32,
@@ -357,12 +357,34 @@
     "traits": [],
     "initialLevel": 1,
     "maxLevel": 99,
-    "name": "Luna",
+    "name": "Luna-Archetype",
     "nickname": "Summoner",
     "note": "",
-    "profile": "Protagonist of Era 3."
+    "profile": "A young woman on a pilgrimage to save the world."
   },
-  null,
+  {
+    "id": 33,
+    "battlerName": "Actor1_1",
+    "characterIndex": 2,
+    "characterName": "SF_Actor1",
+    "classId": 33,
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "faceIndex": 2,
+    "faceName": "SF_Actor1",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Wakka-Archetype",
+    "nickname": "Blitz-Guardian",
+    "note": "",
+    "profile": "A rugged mentor figure obsessed with a game that distracts from the apocalypse."
+  },
   null,
   null,
   null,
@@ -735,5 +757,117 @@
   null,
   null,
   null,
-  null
+  null,
+  null,
+  null,
+  {
+    "id": 123,
+    "name": "Paper Hero",
+    "nickname": "",
+    "classId": 41,
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "characterName": "",
+    "characterIndex": 0,
+    "faceName": "",
+    "faceIndex": 0,
+    "battlerName": "",
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "A paper-thin protagonist capable of folding into a paper plane. Courageous and flat.",
+    "note": ""
+  },
+  {
+    "id": 124,
+    "name": "Ranger",
+    "nickname": "",
+    "classId": 204,
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "characterName": "",
+    "characterIndex": 0,
+    "faceName": "",
+    "faceIndex": 0,
+    "battlerName": "",
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "",
+    "note": ""
+  },
+  {
+    "id": 125,
+    "name": "Source-Mage",
+    "nickname": "",
+    "classId": 205,
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "characterName": "",
+    "characterIndex": 0,
+    "faceName": "",
+    "faceIndex": 0,
+    "battlerName": "",
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "",
+    "note": ""
+  },
+  {
+    "id": 126,
+    "name": "Tav-Archetype",
+    "nickname": "",
+    "classId": 206,
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "characterName": "",
+    "characterIndex": 0,
+    "faceName": "",
+    "faceIndex": 0,
+    "battlerName": "",
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "",
+    "note": ""
+  },
+  {
+    "id": 127,
+    "name": "Expeditionnaire",
+    "nickname": "",
+    "classId": 207,
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "characterName": "",
+    "characterIndex": 0,
+    "faceName": "",
+    "faceIndex": 0,
+    "battlerName": "",
+    "equips": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "profile": "",
+    "note": ""
+  }
 ]

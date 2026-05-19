@@ -3,34 +3,20 @@
   {
     "id": 1,
     "animationId": 6,
-    "description": "A cracked wooden bat. Surprisingly effective against cosmic dread.",
+    "description": "A hollow plastic bat with a noticeable crack. Makes a disappointing thwack sound.",
     "etypeId": 1,
     "traits": [
       {
         "code": 31,
         "dataId": 1,
         "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
       }
     ],
     "iconIndex": 97,
-    "name": "Baseball Bat",
+    "name": "Cracked Bat",
     "note": "",
-    "params": [
-      0,
-      0,
-      10,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "price": 50,
+    "params": [0, 0, 10, 0, 0, 0, 0, 0],
+    "price": 10,
     "wtypeId": 2
   },
   {
@@ -43,26 +29,12 @@
         "code": 31,
         "dataId": 1,
         "value": 0
-      },
-      {
-        "code": 22,
-        "dataId": 0,
-        "value": 0
       }
     ],
     "iconIndex": 97,
     "name": "Frying Pan",
     "note": "",
-    "params": [
-      0,
-      0,
-      8,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
+    "params": [0, 0, 8, 0, 5, 0, 0, 0],
     "price": 30,
     "wtypeId": 2
   },
