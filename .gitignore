@@ -2,3 +2,9 @@
 # MemPalace per-project files (issue #185)
 mempalace.yaml
 entities.json
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

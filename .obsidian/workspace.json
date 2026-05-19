@@ -11,17 +11,24 @@
             "id": "c331bd4a0a1a8bf1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGES/MASTER_LOG.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MASTER_LOG"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "0ded46b90e0572d5",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AGES/MASTER_LOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +110,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MASTER_LOG"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +119,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AGES/MASTER_LOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from MASTER_LOG"
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,21 +161,40 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AGES/MASTER_LOG.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of MASTER_LOG"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "11532e7060d3c28a",
+            "type": "leaf",
+            "state": {
+              "type": "smart-env-status-view",
+              "state": {},
+              "icon": "gauge",
+              "title": "Smart Environment Status"
+            }
+          },
+          {
+            "id": "2d7bf95a91ed1cc1",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,46 +204,61 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "c331bd4a0a1a8bf1",
+  "active": "2d7bf95a91ed1cc1",
   "lastOpenFiles": [
-    "map_checklist.md",
-    "Deep_Development/Stratum_07_The_Depths_of_Apathy/Sprites.md",
-    "Deep_Development/Stratum_07_The_Depths_of_Apathy/Items.md",
-    "Deep_Development/Stratum_07_The_Depths_of_Apathy/NPCs.md",
-    "Deep_Development/Stratum_07_The_Depths_of_Apathy/Maps.md",
-    "Deep_Development/Stratum_07_The_Depths_of_Apathy",
-    "Deep_Development/Stratum_06_The_Meat_Grinder/Sprites.md",
-    "Deep_Development/Stratum_06_The_Meat_Grinder/Items.md",
-    "Deep_Development/Stratum_06_The_Meat_Grinder/NPCs.md",
-    "Deep_Development/Stratum_06_The_Meat_Grinder/Maps.md",
-    "Deep_Development/Stratum_06_The_Meat_Grinder",
-    "Deep_Development/Stratum_05_The_Court_of_the_Forgotten/Sprites.md",
-    "Deep_Development/Stratum_05_The_Court_of_the_Forgotten/Items.md",
-    "Deep_Development/Stratum_05_The_Court_of_the_Forgotten/NPCs.md",
-    "Deep_Development/Stratum_05_The_Court_of_the_Forgotten/Maps.md",
-    "Deep_Development/Stratum_05_The_Court_of_the_Forgotten",
-    "Deep_Development/Stratum_04_The_Interface_of_Atrophy/Sprites.md",
-    "Deep_Development/Stratum_04_The_Interface_of_Atrophy/Items.md",
-    "Deep_Development/Stratum_04_The_Interface_of_Atrophy/NPCs.md",
-    "Deep_Development/Stratum_04_The_Interface_of_Atrophy/Maps.md",
-    "Deep_Development/Stratum_04_The_Interface_of_Atrophy",
-    "Deep_Development/Stratum_03_The_Moonscorched_Menagerie/Sprites.md",
-    "Deep_Development/Stratum_03_The_Moonscorched_Menagerie/Items.md",
-    "Deep_Development/Stratum_03_The_Moonscorched_Menagerie/NPCs.md",
-    "Deep_Development/Stratum_03_The_Moonscorched_Menagerie/Maps.md",
-    "Deep_Development/Stratum_03_The_Moonscorched_Menagerie",
-    "Deep_Development/Stratum_02_The_Hall_of_False_Anchors/Sprites.md",
-    "Deep_Development/Stratum_02_The_Hall_of_False_Anchors/Items.md",
-    "Deep_Development/Stratum_02_The_Hall_of_False_Anchors/NPCs.md",
-    "Deep_Development/Stratum_02_The_Hall_of_False_Anchors/Maps.md",
-    "Deep_Development/Stratum_02_The_Hall_of_False_Anchors",
-    "Deep_Development/Stratum_01_The_Shallow_Graves/Sprites.md",
-    "Deep_Development/Stratum_01_The_Shallow_Graves",
-    "Deep_Development/Era_11_The_Grand_Pyre_Crest_Showdown",
-    "Deep_Development/Era_10_Chiaroscuro_Voyage_33",
-    "Deep_Development/Era_09_Boulders_Portal_3"
+    "AGES/game.rmmzproject",
+    "AGES/Project1/js/plugins/MOG_ChronoEngine.js",
+    "AGES/Project1/js/plugins/VisuMZ_4_BattleSystemCTB.js",
+    "AGES/Project1/js/plugins/VisuMZ_2_QTE_TriggerSys.js",
+    "AGES/Project1/js/plugins/VisuMZ_1_EventsMoveCore.js",
+    "AGES/Project1/js/plugins/VisuMZ_1_BattleCore.js",
+    "AGES/Project1/js/plugins/VisuMZ_0_CoreEngine.js",
+    "AGES/Project1/js/plugins/TextPicture.js",
+    "AGES/Project1/js/plugins/FOSSIL.js",
+    "AGES/Project1/js/plugins/Community_Odometer_Snippet.js",
+    "AGES/Project1/js/plugins/ButtonPicture.js",
+    "AGES/Project1/img/titles2/Medieval.png",
+    "AGES/Project1/img/titles2/Floral.png",
+    "AGES/Project1/img/system/Window.png",
+    "AGES/Project1/img/system/Weapons3.png",
+    "AGES/Project1/img/system/Weapons2.png",
+    "AGES/Project1/img/system/Weapons1.png",
+    "AGES/Project1/img/system/States.png",
+    "AGES/Project1/img/tilesets/SF_Outside_C.png",
+    "AGES/Project1/img/system/Splash.png",
+    "AGES/Project1/img/system/Shadow2.png",
+    "AGES/Project1/Shared/Stage_2_Design.md",
+    "AGES/Project1/Shared/Plugin_Manifest.md",
+    "AGES/Project1/Shared/ID_Registry.md",
+    "AGES/Project1/Shared/Global_Variables.md",
+    "AGES/Project1/Shared/Architecture_Pivot.md",
+    "AGES/Project1/Shared/Element_Index.md",
+    "AGES/Project1/MapBriefs/Era_03_Gariland_Rooftops_MapBrief.md",
+    "AGES/Project1/MapBriefs/Era_03_Dorter_Slums_MapBrief.md",
+    "AGES/Project1/MapBriefs/Era_02_Millennial_Fair_MapBrief.md",
+    "AGES/Project1/MapBriefs/Era_02_Temporal_Lever_MapBrief.md",
+    "AGES/Project1/MapBriefs/Era_01_Woods_Crater_MapBrief.md",
+    "AGES/Project1/MapBriefs/Era_01_Rolling_Americana_MapBrief.md",
+    "AGES/Project1/Eras/Eras_3_to_5_Expanded.md",
+    "AGES/Project1/Eras/Era_02_Temporal_Lever.md",
+    "AGES/Project1/Eras/Era_01_DirtBound.md",
+    "AGES/Project1/Eras/Eras_9_to_11_Expanded.md",
+    "AGES/Project1/Eras/Eras_6_to_8_Expanded.md",
+    "AGES/Project1/Dialogue/Eras_9_to_11_Scripts.md",
+    "AGES/Project1/Dialogue/Eras_5_to_8_Scripts.md",
+    "AGES/Project1/Dialogue/Eras_1_to_4_Scripts.md",
+    "AGES/Project1/Characters/Toad.md",
+    "AGES/Project1/Characters/Ruca.md",
+    "AGES/Project1/Characters/Krono.md",
+    "AGES/Project1/MASTER_LOG.md",
+    "AGES/Eras/Era_02_Temporal_Lever.md"
   ]
 }
