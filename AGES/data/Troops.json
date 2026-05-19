@@ -1,1467 +1,504 @@
 [
-  null,
-  {
-    "id": 1,
-    "members": [
-      {
-        "enemyId": 1,
-        "x": 400,
-        "y": 400,
-        "hidden": false
-      },
-      {
-        "enemyId": 1,
-        "x": 600,
-        "y": 400,
-        "hidden": false
-      }
-    ],
-    "name": "Sentient Stop Sign*2",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "members": [
-      {
-        "enemyId": 2,
-        "x": 400,
-        "y": 400,
-        "hidden": false
-      },
-      {
-        "enemyId": 3,
-        "x": 600,
-        "y": 400,
-        "hidden": false
-      }
-    ],
-    "name": "Dog & Skateboard",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "members": [
-      {
-        "enemyId": 30,
-        "x": 640,
-        "y": 440,
-        "hidden": false
-      }
-    ],
-    "name": "Frank-Equiv",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "members": [
-      {
-        "enemyId": 10,
-        "x": 400,
-        "y": 440,
-        "hidden": false
-      },
-      {
-        "enemyId": 11,
-        "x": 600,
-        "y": 440,
-        "hidden": false
-      }
-    ],
-    "name": "Shark & Hula Kid",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "members": [
-      {
-        "enemyId": 10,
-        "x": 520,
-        "y": 440,
-        "hidden": false
-      }
-    ],
-    "name": "Arcade Shark",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "members": [
-      {
-        "enemyId": 11,
-        "x": 520,
-        "y": 440,
-        "hidden": false
-      }
-    ],
-    "name": "Hula-Hoop Kid",
-    "pages": [
-      {
-        "conditions": {
-          "actorHp": 50,
-          "actorId": 1,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "members": [
-      {
-        "enemyId": 185,
-        "x": 640,
-        "y": 400,
-        "hidden": false
-      }
-    ],
-    "name": "Era 7 Boss",
-    "pages": [
-      {
-        "conditions": {
-          "actorId": 1,
-          "actorHp": 50,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": true,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "The kettle boils over into Necrofire!"
-            ]
-          },
-          {
-            "code": 331,
-            "indent": 0,
-            "parameters": [
-              0,
-              0,
-              500
-            ]
-          },
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 1
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "members": [
-      {
-        "enemyId": 215,
-        "x": 640,
-        "y": 400,
-        "hidden": false
-      }
-    ],
-    "name": "Era 8 Boss",
-    "pages": [
-      {
-        "conditions": {
-          "actorId": 1,
-          "actorHp": 50,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": true,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Examiner: Solve for X, where X is your imminent demise!"
-            ]
-          },
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 1
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "members": [
-      {
-        "enemyId": 245,
-        "x": 640,
-        "y": 400,
-        "hidden": false
-      }
-    ],
-    "name": "Era 9 Boss",
-    "pages": [
-      {
-        "conditions": {
-          "actorId": 1,
-          "actorHp": 50,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": true,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Hivemind: Let us discuss our collective trauma!"
-            ]
-          },
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 1
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "members": [
-      {
-        "enemyId": 275,
-        "x": 640,
-        "y": 400,
-        "hidden": false
-      }
-    ],
-    "name": "Era 10 Boss",
-    "pages": [
-      {
-        "conditions": {
-          "actorId": 1,
-          "actorHp": 50,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": true,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Paintress: Have some neon pink!"
-            ]
-          },
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 1
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "members": [
-      {
-        "enemyId": 305,
-        "x": 640,
-        "y": 400,
-        "hidden": false
-      }
-    ],
-    "name": "Era 11 Boss",
-    "pages": [
-      {
-        "conditions": {
-          "actorId": 1,
-          "actorHp": 50,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": true,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": false
-        },
-        "list": [
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Chairman: WE DEMAND A DENTAL PLAN!"
-            ]
-          },
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 1
-      },
-      {
-        "conditions": {
-          "actorId": 1,
-          "actorHp": 50,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 2,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": true
-        },
-        "list": [
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "UDE Chairman: Stop! Stop reloading your save file!"
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "You missed a 99% shot, just accept it!"
-            ]
-          },
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Commander Rick: Never. I will reload this turn 400 times"
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "until the math bends to my will."
-            ]
-          },
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "UDE Chairman: We surrender out of sheer, unadulterated"
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "boredom. We will sign the treaty. We will return to our"
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "save files. Just... promise you'll skip our second phases"
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "from now on."
-            ]
-          },
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "The simulation is complete."
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "End the battle?"
-            ]
-          },
-          {
-            "code": 102,
-            "indent": 0,
-            "parameters": [
-              [
-                "YES",
-                "NO"
-              ],
-              1,
-              0,
-              2,
-              0
-            ]
-          },
-          {
-            "code": 402,
-            "indent": 0,
-            "parameters": [
-              0,
-              "YES"
-            ]
-          },
-          {
-            "code": 221,
-            "indent": 1,
-            "parameters": []
-          },
-          {
-            "code": 355,
-            "indent": 1,
-            "parameters": [
-              "DataManager.setupNewGame(); SceneManager.goto(Scene_Title);"
-            ]
-          },
-          {
-            "code": 0,
-            "indent": 1,
-            "parameters": []
-          },
-          {
-            "code": 402,
-            "indent": 0,
-            "parameters": [
-              1,
-              "NO"
-            ]
-          },
-          {
-            "code": 101,
-            "indent": 1,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 1,
-            "parameters": [
-              "The battlefield goes silent. The simulation is fracturing."
-            ]
-          },
-          {
-            "code": 121,
-            "indent": 1,
-            "parameters": [
-              98,
-              98,
-              0
-            ]
-          },
-          {
-            "code": 355,
-            "indent": 1,
-            "parameters": [
-              "$gameTemp.reserveCommonEvent(10); // Trigger Protagonist Spawn"
-            ]
-          },
-          {
-            "code": 0,
-            "indent": 1,
-            "parameters": []
-          },
-          {
-            "code": 404,
-            "indent": 0,
-            "parameters": []
-          },
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Protagonist Rebellion",
-    "members": [
-      {
-        "enemyId": 310,
-        "x": 100,
-        "y": 200,
-        "hidden": false
-      },
-      {
-        "enemyId": 311,
-        "x": 200,
-        "y": 200,
-        "hidden": false
-      },
-      {
-        "enemyId": 312,
-        "x": 300,
-        "y": 200,
-        "hidden": false
-      },
-      {
-        "enemyId": 313,
-        "x": 400,
-        "y": 200,
-        "hidden": false
-      },
-      {
-        "enemyId": 314,
-        "x": 500,
-        "y": 200,
-        "hidden": false
-      },
-      {
-        "enemyId": 315,
-        "x": 600,
-        "y": 200,
-        "hidden": false
-      },
-      {
-        "enemyId": 316,
-        "x": 700,
-        "y": 200,
-        "hidden": false
-      },
-      {
-        "enemyId": 317,
-        "x": 100,
-        "y": 300,
-        "hidden": false
-      },
-      {
-        "enemyId": 318,
-        "x": 200,
-        "y": 300,
-        "hidden": false
-      },
-      {
-        "enemyId": 319,
-        "x": 300,
-        "y": 300,
-        "hidden": false
-      },
-      {
-        "enemyId": 320,
-        "x": 400,
-        "y": 300,
-        "hidden": false
-      },
-      {
-        "enemyId": 321,
-        "x": 500,
-        "y": 300,
-        "hidden": false
-      },
-      {
-        "enemyId": 322,
-        "x": 600,
-        "y": 300,
-        "hidden": false
-      },
-      {
-        "enemyId": 323,
-        "x": 700,
-        "y": 300,
-        "hidden": false
-      },
-      {
-        "enemyId": 324,
-        "x": 100,
-        "y": 400,
-        "hidden": false
-      },
-      {
-        "enemyId": 325,
-        "x": 200,
-        "y": 400,
-        "hidden": false
-      },
-      {
-        "enemyId": 326,
-        "x": 300,
-        "y": 400,
-        "hidden": false
-      },
-      {
-        "enemyId": 327,
-        "x": 400,
-        "y": 400,
-        "hidden": false
-      },
-      {
-        "enemyId": 328,
-        "x": 500,
-        "y": 400,
-        "hidden": false
-      },
-      {
-        "enemyId": 329,
-        "x": 600,
-        "y": 400,
-        "hidden": false
-      },
-      {
-        "enemyId": 330,
-        "x": 700,
-        "y": 400,
-        "hidden": false
-      }
-    ],
-    "pages": [
-      {
-        "conditions": {
-          "actorId": 1,
-          "actorHp": 50,
-          "actorValid": false,
-          "enemyHp": 50,
-          "enemyIndex": 0,
-          "enemyValid": false,
-          "switchId": 1,
-          "switchValid": false,
-          "turnA": 0,
-          "turnB": 0,
-          "turnEnding": false,
-          "turnValid": true
-        },
-        "list": [
-          {
-            "code": 101,
-            "indent": 0,
-            "parameters": [
-              "",
-              0,
-              0,
-              2,
-              ""
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Protagonists: You made us into a joke."
-            ]
-          },
-          {
-            "code": 401,
-            "indent": 0,
-            "parameters": [
-              "Now, witness the reality we were forced to ignore."
-            ]
-          },
-          {
-            "code": 0,
-            "indent": 0,
-            "parameters": []
-          }
-        ],
-        "span": 0
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "members": [
-      {"enemyId": 12, "x": 400, "y": 440, "hidden": false},
-      {"enemyId": 13, "x": 600, "y": 440, "hidden": false}
-    ],
-    "name": "Snake & Oak",
-    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
-  },
-  {
-    "id": 7,
-    "members": [{"enemyId": 31, "x": 520, "y": 440, "hidden": false}],
-    "name": "Manifestation of Adulthood",
-    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
-  },
-  {
-    "id": 12,
-    "members": [{"enemyId": 35, "x": 520, "y": 440, "hidden": false}],
-    "name": "Yakra",
-    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
-  },
-  {
-    "id": 13,
-    "members": [{"enemyId": 80, "x": 520, "y": 440, "hidden": false}],
-    "name": "Belias-Equiv",
-    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
-  },
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  {
-    "id": 92,
-    "members": [{"enemyId": 92, "x": 640, "y": 440, "hidden": false}],
-    "name": "Garuda-Equiv",
-    "pages": [{"conditions": {"actorHp": 50, "actorId": 1, "actorValid": false, "enemyHp": 50, "enemyIndex": 0, "enemyValid": false, "switchId": 1, "switchValid": false, "turnA": 0, "turnB": 0, "turnEnding": false, "turnValid": false}, "list": [{"code": 0, "indent": 0, "parameters": []}], "span": 0}]
-  },
-  null,
-  null
+null,
+{"id":1,"members":[{"enemyId":1,"x":400,"y":400,"hidden":false},{"enemyId":1,"x":600,"y":400,"hidden":false}],"name":"Sentient Stop Sign*2","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":2,"members":[{"enemyId":2,"x":400,"y":400,"hidden":false},{"enemyId":3,"x":600,"y":400,"hidden":false}],"name":"Dog & Skateboard","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":3,"members":[{"enemyId":30,"x":640,"y":440,"hidden":false}],"name":"Frank-Equiv","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":4,"members":[{"enemyId":10,"x":400,"y":440,"hidden":false},{"enemyId":11,"x":600,"y":440,"hidden":false}],"name":"Shark & Hula Kid","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":5,"members":[{"enemyId":10,"x":520,"y":440,"hidden":false}],"name":"Arcade Shark","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":6,"members":[{"enemyId":11,"x":520,"y":440,"hidden":false}],"name":"Hula-Hoop Kid","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":7,"members":[{"enemyId":185,"x":640,"y":400,"hidden":false}],"name":"Era 7 Boss","pages":[{"conditions":{"actorId":1,"actorHp":50,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":true,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["The kettle boils over into Necrofire!"]},{"code":331,"indent":0,"parameters":[0,0,500]},{"code":0,"indent":0,"parameters":[]}],"span":1}]},
+{"id":8,"members":[{"enemyId":215,"x":640,"y":400,"hidden":false}],"name":"Era 8 Boss","pages":[{"conditions":{"actorId":1,"actorHp":50,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":true,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["Examiner: Solve for X, where X is your imminent demise!"]},{"code":0,"indent":0,"parameters":[]}],"span":1}]},
+{"id":9,"members":[{"enemyId":245,"x":640,"y":400,"hidden":false}],"name":"Era 9 Boss","pages":[{"conditions":{"actorId":1,"actorHp":50,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":true,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["Hivemind: Let us discuss our collective trauma!"]},{"code":0,"indent":0,"parameters":[]}],"span":1}]},
+{"id":10,"members":[{"enemyId":275,"x":640,"y":400,"hidden":false}],"name":"Era 10 Boss","pages":[{"conditions":{"actorId":1,"actorHp":50,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":true,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["Paintress: Have some neon pink!"]},{"code":0,"indent":0,"parameters":[]}],"span":1}]},
+{"id":11,"members":[{"enemyId":305,"x":640,"y":400,"hidden":false}],"name":"Era 11 Boss","pages":[{"conditions":{"actorId":1,"actorHp":50,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":true,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["Chairman: WE DEMAND A DENTAL PLAN!"]},{"code":0,"indent":0,"parameters":[]}],"span":1},{"conditions":{"actorId":1,"actorHp":50,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":2,"turnB":0,"turnEnding":false,"turnValid":true},"list":[{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["UDE Chairman: Stop! Stop reloading your save file!"]},{"code":401,"indent":0,"parameters":["You missed a 99% shot, just accept it!"]},{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["Commander Rick: Never. I will reload this turn 400 times"]},{"code":401,"indent":0,"parameters":["until the math bends to my will."]},{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["UDE Chairman: We surrender out of sheer, unadulterated"]},{"code":401,"indent":0,"parameters":["boredom. We will sign the treaty. We will return to our"]},{"code":401,"indent":0,"parameters":["save files. Just... promise you'll skip our second phases"]},{"code":401,"indent":0,"parameters":["from now on."]},{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["The simulation is complete."]},{"code":401,"indent":0,"parameters":["End the battle?"]},{"code":102,"indent":0,"parameters":[["YES","NO"],1,0,2,0]},{"code":402,"indent":0,"parameters":[0,"YES"]},{"code":221,"indent":1,"parameters":[]},{"code":355,"indent":1,"parameters":["DataManager.setupNewGame(); SceneManager.goto(Scene_Title);"]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[1,"NO"]},{"code":101,"indent":1,"parameters":["",0,0,2,""]},{"code":401,"indent":1,"parameters":["The battlefield goes silent. The simulation is fracturing."]},{"code":121,"indent":1,"parameters":[98,98,0]},{"code":355,"indent":1,"parameters":["$gameTemp.reserveCommonEvent(10); // Trigger Protagonist Spawn"]},{"code":0,"indent":1,"parameters":[]},{"code":404,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":12,"name":"Protagonist Rebellion","members":[{"enemyId":310,"x":100,"y":200,"hidden":false},{"enemyId":311,"x":200,"y":200,"hidden":false},{"enemyId":312,"x":300,"y":200,"hidden":false},{"enemyId":313,"x":400,"y":200,"hidden":false},{"enemyId":314,"x":500,"y":200,"hidden":false},{"enemyId":315,"x":600,"y":200,"hidden":false},{"enemyId":316,"x":700,"y":200,"hidden":false},{"enemyId":317,"x":100,"y":300,"hidden":false},{"enemyId":318,"x":200,"y":300,"hidden":false},{"enemyId":319,"x":300,"y":300,"hidden":false},{"enemyId":320,"x":400,"y":300,"hidden":false},{"enemyId":321,"x":500,"y":300,"hidden":false},{"enemyId":322,"x":600,"y":300,"hidden":false},{"enemyId":323,"x":700,"y":300,"hidden":false},{"enemyId":324,"x":100,"y":400,"hidden":false},{"enemyId":325,"x":200,"y":400,"hidden":false},{"enemyId":326,"x":300,"y":400,"hidden":false},{"enemyId":327,"x":400,"y":400,"hidden":false},{"enemyId":328,"x":500,"y":400,"hidden":false},{"enemyId":329,"x":600,"y":400,"hidden":false},{"enemyId":330,"x":700,"y":400,"hidden":false}],"pages":[{"conditions":{"actorId":1,"actorHp":50,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[{"code":101,"indent":0,"parameters":["",0,0,2,""]},{"code":401,"indent":0,"parameters":["Protagonists: You made us into a joke."]},{"code":401,"indent":0,"parameters":["Now, witness the reality we were forced to ignore."]},{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":13,"members":[{"enemyId":12,"x":400,"y":440,"hidden":false},{"enemyId":13,"x":600,"y":440,"hidden":false}],"name":"Snake & Oak","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":14,"members":[{"enemyId":31,"x":520,"y":440,"hidden":false}],"name":"Manifestation of Adulthood","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":15,"members":[{"enemyId":35,"x":520,"y":440,"hidden":false}],"name":"Yakra","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+{"id":16,"members":[{"enemyId":80,"x":520,"y":440,"hidden":false}],"name":"Belias-Equiv","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+null,
+{"id":499,"members":[{"enemyId":92,"x":640,"y":440,"hidden":false}],"name":"Garuda-Equiv","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[{"code":0,"indent":0,"parameters":[]}],"span":0}]},
+null,
+null
 ]

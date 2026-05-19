@@ -1,129 +1,17 @@
 [
-  null,
-  {
-    "id": 1,
-    "expanded": false,
-    "name": "Lobby of Ages",
-    "order": 1,
-    "parentId": 0,
-    "scrollX": 0,
-    "scrollY": 0
-  },
-  {
-    "id": 2,
-    "name": "Less's House",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 2
-  },
-  {
-    "id": 75,
-    "name": "Cardboard Woods",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 67
-  },
-  {
-    "id": 76,
-    "name": "Resistance Safehouse",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 68
-  },
-  {
-    "id": 77,
-    "name": "Urban Block",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 69
-  },
-  {
-    "id": 78,
-    "name": "Alien Research Facility",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 70
-  },
-  {
-    "id": 79,
-    "name": "Fort Joy Beach",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 71
-  },
-  {
-    "id": 80,
-    "name": "Prison Dungeons",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 72
-  },
-  {
-    "id": 81,
-    "name": "Casino of Envy",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 73
-  },
-  {
-    "id": 82,
-    "name": "Goblin Camp",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 74
-  },
-  {
-    "id": 83,
-    "name": "The Gilded Ruins",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 75
-  },
-  {
-    "id": 84,
-    "name": "The Grand Pyre",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 76
-  },
-  {
-    "id": 85,
-    "name": "Awakening Room Phase 0",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 77
-  },
-  {
-    "id": 88,
-    "name": "Floor 1: The Shallow Graves",
-    "parentId": 0,
-    "expanded": false,
-    "scrollX": 0,
-    "scrollY": 0,
-    "order": 80
-  }
+null,
+{"id":1,"expanded":false,"name":"Lobby of Ages","order":1,"parentId":0,"scrollX":0,"scrollY":0},
+{"id":2,"name":"Less's House","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":2},
+{"id":3,"name":"Cardboard Woods","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":67},
+{"id":4,"name":"Resistance Safehouse","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":68},
+{"id":5,"name":"Urban Block","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":69},
+{"id":6,"name":"Alien Research Facility","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":70},
+{"id":7,"name":"Fort Joy Beach","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":71},
+{"id":8,"name":"Prison Dungeons","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":72},
+{"id":9,"name":"Casino of Envy","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":73},
+{"id":10,"name":"Goblin Camp","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":74},
+{"id":11,"name":"The Gilded Ruins","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":75},
+{"id":12,"name":"The Grand Pyre","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":76},
+{"id":13,"name":"Awakening Room Phase 0","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":77},
+{"id":14,"name":"Floor 1: The Shallow Graves","parentId":0,"expanded":false,"scrollX":0,"scrollY":0,"order":80}
 ]
